@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis de los temas abordados en el componente formativo denominado Preparaciones tópicas no estériles que abarca  desde la mezcla de ingredientes hasta la verificación de la calidad del producto final a entregar, sus características, elementos de materias primas y formatos para diligenciar al momento del seguimiento y control del producto.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

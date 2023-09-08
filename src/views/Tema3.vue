@@ -10,7 +10,7 @@
     .BGM08.p-md-5.py-4.mb-5
       .row.justify-content-start.align-items-center.mb-4
         .col-lg-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-          img(src='@/assets/curso/tema3/img01.jpg')
+          img(src='@/assets/curso/tema3/img01.jpg' alt="Imagen decorativa")
         .col-lg-5.img-02(data-aos="fade-left")
           .BGRS03.py-5.px-4
             p Las preparaciones magistrales, como cualquier otro medicamento, deben cumplir requisitos de:
@@ -59,7 +59,7 @@
               i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
               | Documentación.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img.w-75(src='@/assets/curso/tema3/img02.png')
+          img.w-75(src='@/assets/curso/tema3/img02.png' alt="Imagen decorativa")
     
     separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -100,14 +100,14 @@
                 i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                 | Anexos (en caso de que apliquen).
         .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema3/img03.jpg')
+          img(src='@/assets/curso/tema3/img03.jpg' alt="Imagen decorativa")
     
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
         .BGR10.p-3
           .row.justify-content-around.align-items-center
             .col-4.col-sm-3.col-lg-2.px-3
-              img(src="@/assets/curso/tema3/img04.svg")
+              img(src="@/assets/curso/tema3/img04.svg" alt="Imagen decorativa")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -123,7 +123,7 @@
         .BGR10.p-3
           .row.justify-content-around.align-items-center
             .col-4.col-sm-3.col-lg-2.px-3
-              img(src="@/assets/curso/tema3/img05.svg")
+              img(src="@/assets/curso/tema3/img05.svg" alt="Imagen decorativa")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -138,10 +138,10 @@
 
     .row.justify-content-center.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 7
+        h5 Figura 7.
         span Flujograma proceso fabricación preparaciones magistrales
       figure(data-aos="zoom-in")
-        img(src="@/assets/curso/tema3/img06.svg")
+        img(src="@/assets/curso/tema3/img06.svg" alt="Figura 7. Muestra a través de un esquema las diferentes etapas del proceso de elaboración de los preparados magistrales, que inicia desde la prescripción que hace el medico tratante, hasta la dispensación al paciente o usuario final.")
     
     p En este recorrido por el proceso de elaboración de las preparaciones se tratarán los siguientes temas:
     ul.lista-ul--color
@@ -167,10 +167,10 @@
       .row.justify-content-center
         .col-lg-6
           .titulo-sexto.color-acento-botones(data-aos="fade-right")
-            h5 Figura 8
+            h5 Figura 8.
             span Área de recepción y almacenamiento
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema3/img07.svg")
+            img(src="@/assets/curso/tema3/img07.svg" alt="Figura 8. Muestra las diferentes áreas de recepción y almacenamiento de preparaciones magistrales.")
     
     p Los requisitos del área de recepción y almacenamiento de materias primas son:
 
@@ -207,7 +207,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-6.pe-0.order-1.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema3/img08.jpg')
+        img(src='@/assets/curso/tema3/img08.jpg' alt="Imagen decorativa")
       .col-lg-4.px-0.order-lg-2.order-3(data-aos="fade-up")
         .BG05.p-4
           p En este paquete tan importante dentro del proceso de elaboración de los productos farmacéuticos, es donde se dejan evidencias de todas las etapas necesarias, se consignan registros como: 
@@ -234,7 +234,7 @@
               i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
               | Limpieza de equipos.
       .col-lg-4.col-6.ps-0.order-lg-3.order-2.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img09.jpg')
+        img(src='@/assets/curso/tema3/img09.jpg' alt="Imagen decorativa")
 
     p Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio #[em Batch Record] y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
     p En tal sentido, a continuación, se encuentran las definiciones, requisitos y responsables de este proceso:
@@ -258,7 +258,7 @@
                 i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
                 | <a style="font-weigh: 900">Lote interno (LI)</a>: lote asignado por producción y gestión.
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema3/img10.png')
+            img(src='@/assets/curso/tema3/img10.png' alt="Imagen decorativa")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             .h4 Requisitos
@@ -282,7 +282,7 @@
                 i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
                 | El personal encargado debe solicitar a su jefe inmediato el <em>Batch Record</em> para diligenciar inmediatamente le sea entregada la orden de producción.
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema3/img11.png')
+            img(src='@/assets/curso/tema3/img11.png' alt="Imagen decorativa")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             .h4 Responsables
@@ -303,7 +303,7 @@
                 i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
                 | <a style="font-weigh: 900">Dirección técnica</a>: revisar y aprobar los <em>Batch Record</em> para la liberación de productos salvaguardados físicamente y compilar su información digitalmente, asegurándose de que se cumplan todas las normas estipuladas. 
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema3/img12.png')
+            img(src='@/assets/curso/tema3/img12.png' alt="Imagen decorativa")
     
     p Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
     
@@ -414,7 +414,7 @@
                     th(style="padding: 0.3em; border-top: 3px solid #7E5EE3; border-right: 3px solid #7E5EE3; border-bottom: 3px solid #7E5EE3; font-size: 14px").text-center DIC
             .row.justify-content-center
               .col-lg-7
-                img(src='@/assets/curso/tema3/img13.svg')
+                img(src='@/assets/curso/tema3/img13.svg' alt="Imagen decorativa")
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
             .h4 Despeje de línea
@@ -422,7 +422,10 @@
             p Como se puede observar en la tabla, se verifica que no hay presencia de ningún material del producto o documento elaborado anteriormente, que las áreas están despejadas y limpias. Luego, se verifica que la información material del lote a elaborar, al igual que las áreas, cumplan con todos los requisitos para iniciar el nuevo proceso. 
             p.mb-0 En ambos casos se deja la firma de quien realiza la operación y quien la verifica.
           .col-lg-7.col.BG12.p-4
-            .tabla-b
+            .titulo-sexto.color-acento-botones
+              h5 Tabla 4.
+              span Despeje de línea
+            .tabla-b(alt="Tabla 4. La tabla describe el despeje de línea")
               table
                 thead
                   tr
@@ -611,7 +614,10 @@
             .h4 Verificación materias primas
             p Es importante verificar las materias primas que serán utilizadas para la fabricación de las preparaciones magistrales en lo relacionado a cantidades, registro de lotes de cada una, en caso de necesitar hacer trazabilidad, fecha de vencimiento para garantizar si son aptas para su uso y realizar inspección visual para detectar alguna anomalía.  La tabla ilustra un formato de verificación de materias primas.
           .col-lg-7.col.BG12.p-4
-            .tabla-b
+            .titulo-sexto.color-acento-botones
+              h5 Tabla 5.
+              span Verificación de materias primas
+            .tabla-b(alt="Tabla 5. Muestra la estructura del formato para verificación de materias primas.")
               table
                 thead
                   tr
@@ -704,7 +710,10 @@
             .h4 Verificación materiales
             p Los materiales a utilizar en el proceso de elaboración de las preparaciones magistrales, como los envases primarios y secundarios, deben ser verificados en cuanto a sus cantidades para garantizar que son los suficientes para la producción, los adecuados para el producto y que no presentan deterioro ni fallas en su apariencia.
           .col-lg-7.col.BG12.p-4
-            .tabla-b
+            .titulo-sexto.color-acento-botones
+              h5 Tabla 6.
+              span Verificación de materiales
+            .tabla-b(alt="Tabla 6. Muestra la estructura del formato para verificación de materiales a utilizar en el proceso de elaboración de productos magistrales.")
               table
                 thead
                   tr
@@ -792,7 +801,10 @@
             p Durante todas las etapas de elaboración del producto se deben realizar controles a medida que este avanza, para garantizar que dicha actividad se lleva a cabo en condiciones adecuadas y prever cualquier no conformidad que surja. Dichos controles se realizan durante las etapas de llenado y acondicionamiento del producto. 
             p.mb-0 Como modelos de formatos para registrar dicha información, se tienen los representados en las tablas.
           .col-lg-7.col.BG12.p-4
-            .tabla-b
+            .titulo-sexto.color-acento-botones(data-aos="fade-right")
+              h5 Tabla 7.
+              span Información para envasado (volumen y densidad)
+            .tabla-b(alt="Tabla 7. Muestra la estructura del formato para depositar la información del envasado")
               table
                 thead
                   tr
@@ -858,8 +870,11 @@
                 i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                 | Firma de quien hizo la verificación.
           .col-lg-7.col.BG12.p-4
+            .titulo-sexto.color-acento-botones
+              h5 Tabla 8.
+              span Proceso acondicionamiento
             figure.indicador__container(@click="modal2 = true")
-              img(src='@/assets/curso/tema3/img15.svg')
+              img(src='@/assets/curso/tema3/img15.svg' alt="Tabla 8. Muestra la estructura del formato para verificación del proceso de acondicionamiento.")
               .indicador--click(v-if="mostrarIndicador")
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
@@ -873,8 +888,11 @@
                 | Un ejemplo claro podría ser la elaboración de un preparado magistral que está en fase de cuarentena, de este producto se deben sacar muestras y enviar a control de calidad para que realice las pruebas pertinentes con el objetivo de verificar si cumple con los parámetros establecidos. Dicho movimiento de las muestras debe quedar registrado en el formato designado para esto.
           .col-lg-5.col-10.BG12.p-4
             p En la tabla se muestra un ejemplo.
+            .titulo-sexto.color-acento-botones
+              h5 Tabla 9.
+              span Controles producto entregado
             figure.indicador__container(@click="modal3 = true")
-              img(src='@/assets/curso/tema3/img16.svg')
+              img(src='@/assets/curso/tema3/img16.svg' alt="Tabla 9. Muestra la estructura del formato llevar el control del producto entregado")
               .indicador--click(v-if="mostrarIndicador")
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
@@ -901,8 +919,11 @@
                 | Golpes, entre otros.
             p.mb-0 La tabla muestra un ejemplo de la información a controlar.
           .col-lg-5.col-10.BG12.p-4
+            .titulo-sexto.color-acento-botones
+              h5 Tabla 10.
+              span Control de información
             figure.indicador__container(@click="modal4 = true")
-              img(src='@/assets/curso/tema3/img17.svg')
+              img(src='@/assets/curso/tema3/img17.svg' alt="Tabla 10. hace parte de la tabla 9 que muestra la estructura del formato para entrega de productos.")
               .indicador--click(v-if="mostrarIndicador")
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
@@ -925,17 +946,23 @@
                
     ModalA(:abrir-modal.sync="modal1")
       .p-5
-        img(src='@/assets/curso/tema3/img14.svg')
+        img(src='@/assets/curso/tema3/img14.svg' alt="Imagen decorativa")
 
     ModalA(:abrir-modal.sync="modal2")
       .p-5
-        img(src='@/assets/curso/tema3/img15.svg')
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 8.
+          span Proceso acondicionamiento
+        img(src='@/assets/curso/tema3/img15.svg' alt="Imagen decorativa")
     ModalA(:abrir-modal.sync="modal3")
       .p-5
-        img(src='@/assets/curso/tema3/img16.svg')
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 9.
+          span Controles producto entregado
+        img(src='@/assets/curso/tema3/img16.svg' alt="Imagen decorativa")
     ModalA(:abrir-modal.sync="modal4")
       .p-5
-        img(src='@/assets/curso/tema3/img17.svg')
+        img(src='@/assets/curso/tema3/img17.svg' alt="Imagen decorativa")
 
     
     separador
@@ -983,7 +1010,7 @@
               | Re envasador.
           p En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema3/img18.svg')
+          img(src='@/assets/curso/tema3/img18.svg' alt="Imagen decorativa")
 
     .BG13.p-4.mb-5
       SlyderA(tipo="b" data-aos="zoom-in")
@@ -991,63 +1018,63 @@
           .h4.text-center.mb-5 Equipos e implementos proceso de producción
           .col-lg-2.col-md-4.col-6.mb-4
             figure.indicador__container(@click="modal5 = true")
-              img(src='@/assets/curso/tema3/img19.jpg')
+              img(src='@/assets/curso/tema3/img19.jpg' alt="Imagen decorativa")
               .indicador--click(v-if="mostrarIndicador")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Balanzas de precisión
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal6 = true")
-              img(src='@/assets/curso/tema3/img21.jpg')
+              img(src='@/assets/curso/tema3/img21.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Baño termostático
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal7 = true")
-              img(src='@/assets/curso/tema3/img20.jpg')
+              img(src='@/assets/curso/tema3/img20.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Morteros de vidrio
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal8 = true")
-              img(src='@/assets/curso/tema3/img22.jpg')
+              img(src='@/assets/curso/tema3/img22.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Auxiliares de pipeteo
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal9 = true")
-              img(src='@/assets/curso/tema3/img23.jpg')
+              img(src='@/assets/curso/tema3/img23.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Agitadores magnéticos
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal10 = true")
-              img(src='@/assets/curso/tema3/img25.jpg')
+              img(src='@/assets/curso/tema3/img25.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Placas calefactoras
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal11 = true")
-              img(src='@/assets/curso/tema3/img24.jpg')
+              img(src='@/assets/curso/tema3/img24.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Espátulas
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal12 = true")
-              img(src='@/assets/curso/tema3/img26.jpg')
+              img(src='@/assets/curso/tema3/img26.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 pH-metro
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal13 = true")
-              img(src='@/assets/curso/tema3/img27.jpg')
+              img(src='@/assets/curso/tema3/img27.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Lente de aumento
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal14 = true")
-              img(src='@/assets/curso/tema3/img28.jpg')
+              img(src='@/assets/curso/tema3/img28.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Termómetros
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal15 = true")
-              img(src='@/assets/curso/tema3/img29.jpg')
+              img(src='@/assets/curso/tema3/img29.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Punto de fusión
           .col-lg-2.col-md-4.col-6
             figure(@click="modal16 = true")
-              img(src='@/assets/curso/tema3/img30.jpg')
+              img(src='@/assets/curso/tema3/img30.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Alcohómetro
 
@@ -1055,23 +1082,23 @@
           .h4.text-center Material volumétrico para medir desde 100 μl a 1 l
           .col-lg-2.col-md-4.col-6.mb-4
             figure.indicador__container(@click="modal17 = true")
-              img(src='@/assets/curso/tema3/img31.jpg')
+              img(src='@/assets/curso/tema3/img31.jpg' alt="Imagen decorativa")
               .indicador--click(v-if="mostrarIndicador")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Pipetas graduadas
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal18 = true")
-              img(src='@/assets/curso/tema3/img32.jpg')
+              img(src='@/assets/curso/tema3/img32.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Pipetas automáticas
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal19 = true")
-              img(src='@/assets/curso/tema3/img33.jpg')
+              img(src='@/assets/curso/tema3/img33.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Probetas
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal20 = true")
-              img(src='@/assets/curso/tema3/img34.jpg')
+              img(src='@/assets/curso/tema3/img34.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Matraces aforados
 
@@ -1079,28 +1106,28 @@
           .h4.text-center Material diverso
           .col-lg-2.col-md-4.col-6.mb-4
             figure.indicador__container(@click="modal21 = true")
-              img(src='@/assets/curso/tema3/img35.jpg')
+              img(src='@/assets/curso/tema3/img35.jpg' alt="Imagen decorativa")
               .indicador--click(v-if="mostrarIndicador")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Vasos de precipitados
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal22 = true")
-              img(src='@/assets/curso/tema3/img36.jpg')
+              img(src='@/assets/curso/tema3/img36.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Embudos
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal23 = true")
-              img(src='@/assets/curso/tema3/img37.jpg')
+              img(src='@/assets/curso/tema3/img37.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Matraces Erlenmeyer
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal24 = true")
-              img(src='@/assets/curso/tema3/img39.jpg')
+              img(src='@/assets/curso/tema3/img39.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Vidrio de reloj
           .col-lg-2.col-md-4.col-6.mb-4
             figure(@click="modal25 = true")
-              img(src='@/assets/curso/tema3/img38.jpg')
+              img(src='@/assets/curso/tema3/img38.jpg' alt="Imagen decorativa")
             .BG14.p-1
               .h5.text-center.text-white.mb-0 Tamices para polvo
 
@@ -1175,7 +1202,7 @@
         .BGR10.p-3
           .row.justify-content-around.align-items-center
             .col-4.col-sm-3.col-lg-2.px-3
-              img(src="@/assets/curso/tema3/img40.svg")
+              img(src="@/assets/curso/tema3/img40.svg" alt="Imagen decorativa")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

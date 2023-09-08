@@ -13,7 +13,7 @@
           p Todo proceso productivo debe iniciar con una correcta planificación de la operación. Para lograr esto, se deben definir aspectos muy importantes como son los insumos necesarios (materia prima) y el material de acondicionamiento y garantizar que cumplan con unas características previamente definidas.
           p.mb-0 A continuación, se darán a conocer de manera general, los tipos de insumos y material de acondicionamiento se utiliza para las preparaciones magistrales tópicas no estériles y sus características.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img.w-75(src='@/assets/curso/tema2/img01.png')
+          img.w-75(src='@/assets/curso/tema2/img01.png' alt="Imagen decorativa")
     
     separador
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -35,23 +35,23 @@
       .col-lg-9.order-lg-2.order-1.mb-lg-0.mb-4.px-0
         .row.justify-content-center
           .col-lg-3.col-6.px-0.mb-lg-0.mb-4(data-aos="fade-right")
-            img(src='@/assets/curso/tema2/img02.png')
+            img(src='@/assets/curso/tema2/img02.png' alt="Imagen decorativa")
           .col-lg-3.col-6.px-0.mb-lg-0.mb-4(data-aos="fade-up")
-            img(src='@/assets/curso/tema2/img03.png')
+            img(src='@/assets/curso/tema2/img03.png' alt="Imagen decorativa")
           .col-lg-3.col-6.px-0.mb-lg-0.mb-4(data-aos="fade-up")
-            img(src='@/assets/curso/tema2/img04.png')
+            img(src='@/assets/curso/tema2/img04.png' alt="Imagen decorativa")
           .col-lg-3.col-6.px-0.mb-lg-0.mb-4(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img05.png')
+            img(src='@/assets/curso/tema2/img05.png' alt="Imagen decorativa")
     
     .row.justify-content-center.mb-5
       .col-lg-8.cajon.color-secundario.p-4(data-aos="flip-up")
         p.mb-0 Los principios activos utilizados tienen características diferentes según el objetivo terapéutico que se busque para el tratamiento con el preparado magistral en general o los tópicos no estériles que es el objetivo de estudio.
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      h5 Tabla 3
+      h5 Tabla 3.
       span Ejemplos principios activos y sus aplicaciones
 
-    .tabla-a.color-primario.mb-5(data-aos="zoom-in")
+    .tabla-a.color-primario.mb-5(data-aos="zoom-in" alt="Tabla 3. Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
       table
         thead(style="border-color: #00BCD4")
           tr
@@ -118,7 +118,7 @@
                 i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                 | Excipientes para la elaboración de formas farmacéuticas líquidas.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema2/img06.svg')
+        img(src='@/assets/curso/tema2/img06.svg' alt="Imagen decorativa")
 
     p Ahora, se profundiza en el estudio de cada uno de ellos.
     .h4.mb-5 Excipientes para la elaboración de emulsiones
@@ -127,10 +127,10 @@
     .row.justify-content-center.mb-5
       .col
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 5
+          h5 Figura 5.
           span Esquema emulsiones y sus excipientes
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema2/img07.svg")
+          img(src="@/assets/curso/tema2/img07.svg" alt="Figura 5. describe a través de un esquema las emulsiones y sus excipientes que son: Emulgentes y estabilizantes. La explicación se hace luego de la figura.")
     
     p En la siguiente figura se evidencia el sistema de las emulsiones, donde se tiene una fase acuosa (#[b W]) y otra oleosa (#[b O]). Estas dos fases no son solubles la una en la otra, sin embargo, pueden estar juntas y estables en el sistema. 
     p.mb-5 Se puede observar también que las fases no están disueltas, pero sí permanecen en el sistema para generar la emulsión.
@@ -138,15 +138,15 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 6
+          h5 Figura 6.
           span Sistema emulsiones
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema2/img08.svg")
+          img(src="@/assets/curso/tema2/img08.svg" alt="Figura 6. Muestra el sistema de las emulsiones en su fase acuosa (W) y en su fase oleosa (O).")
     
     .BGM08.p-md-5.py-4.mb-5
       .row.justify-content-start.align-items-center.mb-4
         .col-lg-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img09.jpg')
+          img(src='@/assets/curso/tema2/img09.jpg' alt="Imagen decorativa")
         .col-lg-5.img-02(data-aos="fade-left")
           .BGRS03.py-5.px-4
             .h4 Excipientes para la elaboración de ungüentos
@@ -206,7 +206,7 @@
                 i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                 | Alcoholes de lana o alcoholes de lanolina.
         .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema2/img10.jpg')
+          img(src='@/assets/curso/tema2/img10.jpg' alt="Imagen decorativa")
 
     .h4 Excipientes para la elaboración de formas farmacéuticas líquidas
     p Otra de las formas farmacéuticas tópicas no estériles que existen son las líquidas, los cuales tienen las siguientes características:
@@ -240,7 +240,7 @@
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/tema2/img11.svg')
+                img(src='@/assets/curso/tema2/img11.svg' alt="Imagen decorativa")
           .text-white
             .h4.text-center.mb-5 Componentes solución 1
             ul.lista-ul--color
@@ -258,7 +258,7 @@
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/tema2/img12.svg')
+                img(src='@/assets/curso/tema2/img12.svg' alt="Imagen decorativa")
           .text-white
             .h4.text-center.mb-5 Componentes solución 2
             ul.lista-ul--color
@@ -277,7 +277,7 @@
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/tema2/img13.svg')
+                img(src='@/assets/curso/tema2/img13.svg' alt="Imagen decorativa")
           .text-white
             .h4.text-center.mb-5 Componentes solución 3
             ul.lista-ul--color
@@ -298,7 +298,7 @@
           .row.justify-content-center.mb-3
             .col-6
               figure
-                img(src='@/assets/curso/tema2/img14.svg')
+                img(src='@/assets/curso/tema2/img14.svg' alt="Imagen decorativa")
           .text-white
             .h4.text-center.mb-5 Principios activos soluciones
             ul.lista-ul--color
@@ -350,7 +350,7 @@
                   i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                   | Identificación.
             .col-lg-5
-              img(src='@/assets/curso/tema2/img15.svg')
+              img(src='@/assets/curso/tema2/img15.svg' alt="Imagen decorativa")
         .BGRB03(titulo="Tipos")
           .row.justify-content-center
             .col-lg-7.p-4
@@ -363,7 +363,7 @@
                   i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                   | <a style="font-weigh: 900">Secundario</a>: embalaje en el que se encuentre el acondicionamiento primario
             .col-lg-5
-              img(src='@/assets/curso/tema2/img16.svg')
+              img(src='@/assets/curso/tema2/img16.svg' alt="Imagen decorativa")
         .BGRB03(titulo="Características")
           .row.justify-content-center
             .pt-4.px-4
@@ -385,7 +385,7 @@
                   i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                   | <a style="font-weigh: 900">Correcto sellado</a>: con esta característica se logra que el producto esté aislado, no se contamine y que su contenido no se reduzca por posibles filtraciones.
             .col-lg-5
-              img(src='@/assets/curso/tema2/img17.svg')
+              img(src='@/assets/curso/tema2/img17.svg' alt="Imagen decorativa")
 
     p.mb-5 Algunos ejemplos de envases primarios para uso en las preparaciones magistrales son:
 
@@ -393,7 +393,7 @@
       PasosB.color-secundario
         .row.justify-content-center(titulo="Vidrio")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img18.jpg")
+            img(src="@/assets/curso/tema2/img18.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características del #[strong vidrio] como material para preparados magistrales son:
             ul.lista-ul--color
@@ -409,7 +409,7 @@
             p.mb-0 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong lociones y extractos].
         .row.justify-content-center(titulo="Plástico")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img19.jpg")
+            img(src="@/assets/curso/tema2/img19.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características del #[strong plástico] como material para preparados magistrales son:
             ul.lista-ul--color
@@ -437,7 +437,7 @@
             p.mb-0 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong ungüentos, geles, cremas y pastas].
         .row.justify-content-center(titulo="Metales")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img20.jpg")
+            img(src="@/assets/curso/tema2/img20.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características de los #[strong metales] como material para preparados magistrales son:
             ul.lista-ul--color
@@ -456,7 +456,7 @@
       LineaTiempoC.color-secundario(text-small)
         .row.justify-content-center(titulo="P.E.T.")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img21.jpg")
+            img(src="@/assets/curso/tema2/img21.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características del #[strong polietileno (PET)] como material para preparados magistrales son:
             ul.lista-ul--color
@@ -481,7 +481,7 @@
             p.mb-0 La forma farmacéutica utilizada con mayor frecuencia es en #[strong jarabes].
         .row.justify-content-center(titulo="P.E.A.D.")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img22.jpg")
+            img(src="@/assets/curso/tema2/img22.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características del #[strong polietileno de alta densidad (PEAD)] como material para preparados magistrales son:
             ul.lista-ul--color
@@ -500,7 +500,7 @@
             p.mb-0 La forma farmacéutica utilizada con mayor frecuencia es en #[strong cremas].
         .row.justify-content-center(titulo="P.E.B.D.")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img23.jpg")
+            img(src="@/assets/curso/tema2/img23.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características del #[strong polietileno de baja densidad (PEBD)] como material para preparados magistrales son:
             ul.lista-ul--color
@@ -522,7 +522,7 @@
             p.mb-0 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong geles, cremas y ungüentos].
         .row.justify-content-center(titulo="P.S.")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img24.jpg")
+            img(src="@/assets/curso/tema2/img24.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características del #[strong poliestireno (PS)] como material para preparados magistrales son:
             ul.lista-ul--color
@@ -541,7 +541,7 @@
             p.mb-0 Las formas farmacéuticas utilizadas con mayor frecuencia son: #[strong comprimidos, cápsulas y polvos].
         .row.justify-content-center(titulo="P.V.C.")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img25.jpg")
+            img(src="@/assets/curso/tema2/img25.jpg" alt="Imagen decorativa")
           .col-lg-5
             p Las características del #[strong policloruro de vinilo (PVC)] como material para preparados magistrales son:
             ul.lista-ul--color

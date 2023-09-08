@@ -29,15 +29,15 @@
                 | Desaparecer en el transcurso del proceso.
             Para el correcto manejo de las materias primas, se deben tener en cuenta aspectos relacionados con su recepción, verificación, control de calidad y almacenamiento, como se detalla a continuación.
         .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema1/img01.jpg')
+          img(src='@/assets/curso/tema1/img01.jpg' alt="Imagen decorativa")
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-5
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 1
+          h5 Figura 1.
           span Manejo materias prima
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema1/img02.svg")
+        figure(data-aos="zoom-in" alt="Figura 1. Muestra la recepción de materias primas y los productos de acondicionamiento, esto es:<br>Cuarentena: situación de materias primas, de productos intermedios a granel o terminados y materiales de acondicionamiento que se encuentren aislados fisicamente o de otra forma mientras se decide su aprobación o rechazo; de esta cuarentena sale un registro con datos del proveedor, lote, control de capacidad, número de envases, etc. y a su vez de la hoja de registro se emite un certificado y etiqueta hacia la cuarentena.")
+          img(src="@/assets/curso/tema1/img02.svg" alt="Imagen decorativa")
       .col-lg-8
         .cajon.color-secundario.p-4(data-aos="flip-up")
           p.mb-0 Dicho proceso también es aplicable al material de acondicionamiento utilizado durante el proceso de elaboración de las preparaciones magistrales tópicas no estériles.
@@ -49,15 +49,15 @@
           p También llamado sustancia activa, es considerado como toda sustancia o mezcla de sustancias, cuyo objetivo es la fabricación de un medicamento y que se transforman en el componente activo de este. Dicho componente tiene como objetivo generar una acción metabólica, farmacológica e inmunológica, restaurando, corrigiendo o modificando las funciones fisiológicas o realizar un diagnóstico.
           p.mb-0 Algunos ejemplos de principios activos de preparaciones magistrales tópicas no estériles son:
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img.w-75(src='@/assets/curso/tema1/img03.png')
+          img.w-75(src='@/assets/curso/tema1/img03.png' alt="Imagen decorativa")
 
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      h5 Tabla 1
+      h5 Tabla 1.
       span Ejemplos principios activos
 
     .tabla-a.color-primario.mb-5(data-aos="zoom-in")
-      table
+      table(alt="Tabla 1. Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
         thead(style="border-color: #00BCD4")
           tr
             th(style="background-color: #95DCE5; width: 16.6%; font-size: 18px").text-center Nombre principio activo
@@ -95,11 +95,11 @@
           p Además, cuando un ingrediente activo ha sido purificado, muchas veces no puede permanecer así por mucho tiempo; otro uso de los excipientes es como estabilizadores que aseguren la activación del principio activo lo suficiente para hacer un producto competitivo.
           p.mb-0 Según el estatus legal, los medicamentos se dividen en:
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img.w-75(src='@/assets/curso/tema1/img04.png')
+          img.w-75(src='@/assets/curso/tema1/img04.png' alt="Imagen decorativa")
     
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema1/img05.svg')
+        img(src='@/assets/curso/tema1/img05.svg' alt="Imagen decorativa")
       .col-lg-9
         TabsA.color-acento-contenido
           .BGRB03.p-4(titulo="Especificidad farmacéutica")
@@ -122,7 +122,7 @@
     .BGM08.px-md-5.px-4.py-4.mb-5
       .row.justify-content-start.align-items-center
         .col-lg-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img06.jpg')
+          img(src='@/assets/curso/tema1/img06.jpg' alt="Imagen decorativa")
         .col-lg-5.img-02(data-aos="fade-left")
           .BGRS03.py-5.px-4
             .h4 Incompatibilidades preparaciones magistrales
@@ -153,16 +153,16 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 2
+          h5 Figura 2.
           span Clasificación de incompatibilidades
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/img07.svg")
+          img(src="@/assets/curso/tema1/img07.svg" alt="Figura 2. Muestra la clasificación de incompatibilidades que son las manifiestas y las larvadas que se explican luego de la imagen.")
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/img08.png")
+          img(src="@/assets/curso/tema1/img08.png" alt="Figura 2. Muestra la clasificación de incompatibilidades que son las manifiestas y las larvadas que se explican luego de la imagen.")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img09.svg')
+        img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left")
         p En la fabricación de las preparaciones magistrales participan componentes como: 
         ul.lista-ul--color
@@ -183,17 +183,17 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 3
+          h5 Figura 3.
           span Incompatibilidades entre componentes de la fórmula
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema1/img10.svg")
+          img(src="@/assets/curso/tema1/img10.svg" alt="Figura 3. Muestra las diferentes incompatibilidades que se presentan entre componente de la fórmula.")
     
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-a.color-primario.p-3.p-md-4
           .row.m-0.align-items-center.justify-content-between
             .col-lg-2.col-4.mb-4.mb-lg-0(data-aos="fade-right")
-              img(src="@/assets/curso/tema1/img11.svg")
+              img(src="@/assets/curso/tema1/img11.svg" alt="Imagen decorativa")
             .col-lg-10(data-aos="fade-left")
               .bloque-texto-a__texto.p-4
                 p.mb-0 Dichas incompatibilidades se presentan en todas las formas farmacéuticas de las preparaciones magistrales tanto estériles como no estériles.
@@ -231,18 +231,18 @@
                 i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
                 | Presencia de contaminantes.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema1/img12.svg')
+          img(src='@/assets/curso/tema1/img12.svg' alt="Imagen decorativa")
 
     p.mb-5 Y dentro de los resultados que pueden traer dichos factores, podemos encontrar los siguientes:
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Tabla 2
+          h5 Tabla 2.
           span Consecuencias factores que generan incompatibilidades
 
         .tabla-a.color-primario(data-aos="zoom-in")
-          table
+          table(alt="Tabla 2. Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
             thead(style="border-color: #00BCD4")
               tr
                 th(style="background-color: #95DCE5; font-size: 18px").text-center Factor
@@ -272,23 +272,23 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-6.pe-0.order-1.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img13.jpg')
+        img(src='@/assets/curso/tema1/img13.jpg' alt="Imagen decorativa")
       .col-lg-4.px-0.order-lg-2.order-3(data-aos="fade-up")
         .BG05.p-5
           .h4 Interacción de los preparados magistrales
           p.mb-0 Todos los preparados farmacéuticos están formados por diferentes componentes y cada uno de ellos tiene una función específica dependiendo de la forma farmacéutica. En general, siempre se cuenta con uno o varios principios activos y excipientes que son inactivos frente a la acción farmacológica del preparado, pero que a su vez cumple con funciones específicas como vehículo, conservantes, proporcionar viscosidad, regular el pH, entre otras.
       .col-lg-4.col-6.ps-0.order-lg-3.order-2.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema1/img14.jpg')
+        img(src='@/assets/curso/tema1/img14.jpg' alt="Imagen decorativa")
     
     p.mb-5 Estos componentes interactúan entre sí para lograr un producto final que cumpla con las especificaciones definidas. Entre las interacciones que se pueden presentan en estos productos se pueden encontrar las siguientes:
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 4
+          h5 Figura 4.
           span Interacciones químicas
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema1/img15.svg")
+          img(src="@/assets/curso/tema1/img15.svg" alt="Figura 4. describe las interacciones químicas que son el sinergismo y el antagonismo, ambas se explican luego de la figura.")
     
     p.mb-5 Ahora bien, dentro de los tres tipos de sinergismos que se conocen, están los siguientes:
 
@@ -296,7 +296,7 @@
       LineaTiempoC.color-secundario(text-small)
         .row.justify-content-center(titulo="Efecto aditivo")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema1/img16.svg")
+            img(src="@/assets/curso/tema1/img16.svg" alt="imagen que muestra de manera ilustrativa el resultado de varios productos químicos que actúan juntos.")
           .col-lg-5
             p Es el resultado de dos o más productos químicos que actúan juntos y representan la simple suma de sus efectos cuando actúan independientemente.
             .BG05.p-4.mb-4
@@ -304,14 +304,14 @@
             p.mb-0 #[strong Ejemplo]: organofosforados y carbamatos.
         .row.justify-content-center(titulo="Potenciación (multiplicador)")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema1/img17.svg")
+            img(src="@/assets/curso/tema1/img17.svg" alt="Imagen que muestra el resultado de dos productos químicos que actúan juntos.")
           .col-lg-5
             p Es el efecto de dos productos químicos que actúan juntos, cuyo resultado es mayor que la suma sencilla de sus efectos al actuar solos.
             .BG05.p-4
               p.mb-0 Ambos compuestos son tóxicos. 
         .row.justify-content-center(titulo="Facilitación")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema1/img18.svg")
+            img(src="@/assets/curso/tema1/img18.svg" alt="Imagen que muestra la combinación de una sustancia que no es dañina con otra.")
           .col-lg-5
             p Es cuando una sustancia que no produce daño, al combinarse con otra sustancia aumenta los efetos de esta.
             .BG05.p-4
