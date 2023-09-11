@@ -51,7 +51,7 @@
       h5 Tabla 3.
       span Ejemplos principios activos y sus aplicaciones
 
-    .tabla-a.color-primario.mb-5(data-aos="zoom-in" alt="Tabla 3. Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
+    .tabla-a.color-primario.mb-5(data-aos="zoom-in" alt="Tabla que muestra lejemplos de los principios activos y sus aplicaciones.")
       table
         thead(style="border-color: #00BCD4")
           tr
@@ -130,7 +130,7 @@
           h5 Figura 5.
           span Esquema emulsiones y sus excipientes
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema2/img07.svg" alt="Figura 5. describe a través de un esquema las emulsiones y sus excipientes que son: Emulgentes y estabilizantes. La explicación se hace luego de la figura.")
+          img(src="@/assets/curso/tema2/img07.svg" alt="Imagen que describe a través de un esquema las emulsiones y sus excipientes que son: emulgentes y estabilizantes. La explicación se hace luego de la figura.")
     
     p En la siguiente figura se evidencia el sistema de las emulsiones, donde se tiene una fase acuosa (#[b W]) y otra oleosa (#[b O]). Estas dos fases no son solubles la una en la otra, sin embargo, pueden estar juntas y estables en el sistema. 
     p.mb-5 Se puede observar también que las fases no están disueltas, pero sí permanecen en el sistema para generar la emulsión.
@@ -141,7 +141,7 @@
           h5 Figura 6.
           span Sistema emulsiones
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema2/img08.svg" alt="Figura 6. Muestra el sistema de las emulsiones en su fase acuosa (W) y en su fase oleosa (O).")
+          img(src="@/assets/curso/tema2/img08.svg" alt="Imagen que muestra el sistema de las emulsiones en su fase acuosa (W) y en su fase oleosa (O), lo cual es:<br>Sistema W/O<br>Sistema O/W<br>Sistema W/O/W<br>Sistema O/W/O")
     
     .BGM08.p-md-5.py-4.mb-5
       .row.justify-content-start.align-items-center.mb-4

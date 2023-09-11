@@ -141,7 +141,7 @@
         h5 Figura 7.
         span Flujograma proceso fabricación preparaciones magistrales
       figure(data-aos="zoom-in")
-        img(src="@/assets/curso/tema3/img06.svg" alt="Figura 7. Muestra a través de un esquema las diferentes etapas del proceso de elaboración de los preparados magistrales, que inicia desde la prescripción que hace el medico tratante, hasta la dispensación al paciente o usuario final.")
+        img(src="@/assets/curso/tema3/img06.svg" alt="Imagen que muestra a través de un esquema las diferentes etapas del proceso de elaboración de los preparados magistrales, que inicia desde la prescripción que hace el medico tratante, hasta la dispensación al paciente o usuario final.")
     
     p En este recorrido por el proceso de elaboración de las preparaciones se tratarán los siguientes temas:
     ul.lista-ul--color
@@ -170,7 +170,7 @@
             h5 Figura 8.
             span Área de recepción y almacenamiento
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema3/img07.svg" alt="Figura 8. Muestra las diferentes áreas de recepción y almacenamiento de preparaciones magistrales.")
+            img(src="@/assets/curso/tema3/img07.svg" alt="Imagen que muestra las diferentes áreas de recepción y almacenamiento de preparaciones magistrales.")
     
     p Los requisitos del área de recepción y almacenamiento de materias primas son:
 
@@ -425,7 +425,7 @@
             .titulo-sexto.color-acento-botones
               h5 Tabla 4.
               span Despeje de línea
-            .tabla-b(alt="Tabla 4. La tabla describe el despeje de línea")
+            .tabla-b(alt="La tabla describe el despeje de línea")
               table
                 thead
                   tr
@@ -617,7 +617,7 @@
             .titulo-sexto.color-acento-botones
               h5 Tabla 5.
               span Verificación de materias primas
-            .tabla-b(alt="Tabla 5. Muestra la estructura del formato para verificación de materias primas.")
+            .tabla-b(alt="Tabla que muestra la estructura del formato para verificación de materias primas.")
               table
                 thead
                   tr
@@ -713,7 +713,7 @@
             .titulo-sexto.color-acento-botones
               h5 Tabla 6.
               span Verificación de materiales
-            .tabla-b(alt="Tabla 6. Muestra la estructura del formato para verificación de materiales a utilizar en el proceso de elaboración de productos magistrales.")
+            .tabla-b(alt="Tabla que muestra la estructura del formato para verificación de materiales a utilizar en el proceso de elaboración de productos magistrales.")
               table
                 thead
                   tr
@@ -804,7 +804,7 @@
             .titulo-sexto.color-acento-botones(data-aos="fade-right")
               h5 Tabla 7.
               span Información para envasado (volumen y densidad)
-            .tabla-b(alt="Tabla 7. Muestra la estructura del formato para depositar la información del envasado")
+            .tabla-b(alt="Tabla que muestra la estructura del formato para depositar la información del envasado.")
               table
                 thead
                   tr
@@ -874,7 +874,7 @@
               h5 Tabla 8.
               span Proceso acondicionamiento
             figure.indicador__container(@click="modal2 = true")
-              img(src='@/assets/curso/tema3/img15.svg' alt="Tabla 8. Muestra la estructura del formato para verificación del proceso de acondicionamiento.")
+              img(src='@/assets/curso/tema3/img15.svg' alt="Tabla que muestra la estructura del formato para verificación del proceso de acondicionamiento.")
               .indicador--click(v-if="mostrarIndicador")
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
@@ -892,7 +892,7 @@
               h5 Tabla 9.
               span Controles producto entregado
             figure.indicador__container(@click="modal3 = true")
-              img(src='@/assets/curso/tema3/img16.svg' alt="Tabla 9. Muestra la estructura del formato llevar el control del producto entregado")
+              img(src='@/assets/curso/tema3/img16.svg' alt="Tabla que muestra la estructura del formato llevar el control del producto entregado.")
               .indicador--click(v-if="mostrarIndicador")
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
@@ -923,7 +923,7 @@
               h5 Tabla 10.
               span Control de información
             figure.indicador__container(@click="modal4 = true")
-              img(src='@/assets/curso/tema3/img17.svg' alt="Tabla 10. hace parte de la tabla 9 que muestra la estructura del formato para entrega de productos.")
+              img(src='@/assets/curso/tema3/img17.svg' alt="Tabla que muestra los procesos sobre el control de la información.")
               .indicador--click(v-if="mostrarIndicador")
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4

@@ -115,7 +115,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/331502_CF20_DU.pdf',
+        download: 'downloads/331502_CF20_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -131,12 +131,53 @@ export default {
   },
   complementario: [
     {
+      tema: 'Conceptos farmacotécnicos',
+      referencia:
+        'López, B., García, S., Ortonobes Roig, C.A., y García, R. Ungüentos, pomadas, cremas, geles y pastas: ¿es todo lo mismo? Form Act Pediatr Aten Prim., 8(4), 183-187.',
+      tipo: 'PDF',
+      link:
+        'https://fapap.es/files/639-1294-RUTA/FAPAP_4_2015_Unguentos_pomadas.pdf',
+    },
+    {
+      tema: 'Conceptos farmacotécnicos',
+      referencia:
+        'Presidencia de la República. (2016). Decreto 0780 de 2016. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. [6 de mayo de 2016].',
+      tipo: 'PDF',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
+    },
+    {
+      tema: 'Conceptos farmacotécnicos',
+      referencia:
+        'Ministerio de la Protección Social. (2007). Resolución 1403 de 2007. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras Disposiciones. [14 de mayo de 2007].',
+      tipo: 'PDF',
+      link:
+        'http://autorregulacion.saludcapital.gov.co/leyes/Resolucion_1403_de_2007.pdf',
+    },
+    {
       tema:
         'Insumos, materiales de acondicionamiento requeridos para las preparaciones magistrales tópicas no estériles',
       referencia:
-        'Savunisevilla. (2014). <em>Farmacia comunitaria. Paciente. Formulación magistral y formación en atención farmacéutica</em>. [Video]. YouTube.',
+        'Savunisevilla. (2014). Farmacia comunitaria. Paciente. Formulación magistral y formación en atención farmacéutica. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=207Fe-M_5K4',
+    },
+    {
+      tema:
+        'Etapas del proceso de elaboración de preparaciones magistrales tópicas no estériles',
+      referencia:
+        'Red de Autoridades de Medicamentos de Iberoamérica. (2016). Guía de buenas prácticas de elaboración y control de calidad de preparaciones magistrales y oficinales. Red Eami.',
+      tipo: 'PDF',
+      link:
+        'https://www.redeami.net/docs/docs/cooperacion/guias_formulario_iberoamericano/01_Guia_de_buenas_practicas_elaboracion_control_calidad_preparaciones_magistrales_oficinales.pdf',
+    },
+    {
+      tema:
+        'Etapas del proceso de elaboración de preparaciones magistrales tópicas no estériles',
+      referencia:
+        'Ministerio de la Protección Social. (2008). Resolución 444 de 2008. Por la cual se adopta el Instrumento de Verificación de Cumplimiento de Buenas Prácticas de Elaboración de preparaciones magistrales y se dictan otras disposiciones. [12 de febrero de 2008].',
+      tipo: 'PDF',
+      link: 'https://www.arlsura.com/images/stories/documentos/res444_08.pdf',
     },
   ],
   glosario: [

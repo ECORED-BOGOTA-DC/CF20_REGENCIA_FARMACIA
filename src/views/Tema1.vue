@@ -36,7 +36,7 @@
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Figura 1.
           span Manejo materias prima
-        figure(data-aos="zoom-in" alt="Figura 1. Muestra la recepción de materias primas y los productos de acondicionamiento, esto es:<br>Cuarentena: situación de materias primas, de productos intermedios a granel o terminados y materiales de acondicionamiento que se encuentren aislados fisicamente o de otra forma mientras se decide su aprobación o rechazo; de esta cuarentena sale un registro con datos del proveedor, lote, control de capacidad, número de envases, etc. y a su vez de la hoja de registro se emite un certificado y etiqueta hacia la cuarentena.")
+        figure(data-aos="zoom-in" alt="Imagen que muestra la recepción de materias primas y los productos de acondicionamiento, esto es: <br>Cuarentena: situación de materias primas, de productos intermedios a granel o terminados y materiales de acondicionamiento que se encuentren aislados físicamente o de otra forma mientras se decide su aprobación o rechazo; de esta cuarentena sale un registro con datos del proveedor, lote, control de capacidad, número de envases, etc. y a su vez de la hoja de registro se emite un certificado y etiqueta hacia la cuarentena.")
           img(src="@/assets/curso/tema1/img02.svg" alt="Imagen decorativa")
       .col-lg-8
         .cajon.color-secundario.p-4(data-aos="flip-up")
@@ -57,7 +57,7 @@
       span Ejemplos principios activos
 
     .tabla-a.color-primario.mb-5(data-aos="zoom-in")
-      table(alt="Tabla 1. Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
+      table(alt="Tabla que muestra los diferentes equipos que se utilizan para la separación de resíduos y los elementos a utilizar.")
         thead(style="border-color: #00BCD4")
           tr
             th(style="background-color: #95DCE5; width: 16.6%; font-size: 18px").text-center Nombre principio activo
@@ -156,9 +156,9 @@
           h5 Figura 2.
           span Clasificación de incompatibilidades
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/img07.svg" alt="Figura 2. Muestra la clasificación de incompatibilidades que son las manifiestas y las larvadas que se explican luego de la imagen.")
+          img(src="@/assets/curso/tema1/img07.svg" alt="Imagen que muestra la clasificación de incompatibilidades que son las manifiestas y las larvadas que se explican luego de la imagen.")
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/img08.png" alt="Figura 2. Muestra la clasificación de incompatibilidades que son las manifiestas y las larvadas que se explican luego de la imagen.")
+          img(src="@/assets/curso/tema1/img08.png" alt="Imagen que muestra la clasificación de incompatibilidades que son las manifiestas y las larvadas que se explican luego de la imagen.")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -186,7 +186,7 @@
           h5 Figura 3.
           span Incompatibilidades entre componentes de la fórmula
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema1/img10.svg" alt="Figura 3. Muestra las diferentes incompatibilidades que se presentan entre componente de la fórmula.")
+          img(src="@/assets/curso/tema1/img10.svg" alt="Imagen que muestra las diferentes incompatibilidades que se presentan entre componentes de la fórmula. Como son:<br>-Principio activo 1 ≠ Principio activo 1<br>-Principio activo ≠ Excipiente<br>-Excipiente 1 ≠ Excipiente 2<br>-Principios activos + excipientes ≠ Materiales del envase o del cierre<br>-Contaminantes ≠ Principios activos + excipientes")
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -242,7 +242,7 @@
           span Consecuencias factores que generan incompatibilidades
 
         .tabla-a.color-primario(data-aos="zoom-in")
-          table(alt="Tabla 2. Se muestran los diferentes equipos que se utilizan para la separaci{on de resíduos y los elementos a utilizar.")
+          table(alt="Tabla que muestra las consecuencias en los factores que generan incompatibilidades.")
             thead(style="border-color: #00BCD4")
               tr
                 th(style="background-color: #95DCE5; font-size: 18px").text-center Factor
@@ -288,7 +288,7 @@
           h5 Figura 4.
           span Interacciones químicas
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema1/img15.svg" alt="Figura 4. describe las interacciones químicas que son el sinergismo y el antagonismo, ambas se explican luego de la figura.")
+          img(src="@/assets/curso/tema1/img15.svg" alt="Imagen que describe las interacciones químicas que son el sinergismo y el antagonismo, ambas se explican luego de la figura.")
     
     p.mb-5 Ahora bien, dentro de los tres tipos de sinergismos que se conocen, están los siguientes:
 
@@ -296,7 +296,7 @@
       LineaTiempoC.color-secundario(text-small)
         .row.justify-content-center(titulo="Efecto aditivo")
           .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema1/img16.svg" alt="imagen que muestra de manera ilustrativa el resultado de varios productos químicos que actúan juntos.")
+            img(src="@/assets/curso/tema1/img16.svg" alt="Imagen que muestra de manera ilustrativa el resultado de varios productos químicos que actúan juntos.")
           .col-lg-5
             p Es el resultado de dos o más productos químicos que actúan juntos y representan la simple suma de sus efectos cuando actúan independientemente.
             .BG05.p-4.mb-4
