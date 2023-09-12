@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptos farmacotécnicos
     
-    p.mb-5 Es importante conocer y recordar algunos términos relacionados con la farmacotecnia, que serán de gran aporte para la comprensión del contenido que se desarrollará durante el componente formativo.
-    .h4 Droga
-    p.mb-5 Es toda sustancia que, introducida al organismo por cualquier vía de administración, produce una alteración del natural funcionamiento del sistema de la persona, siendo susceptible a crear dependencia psicológica, física o ambas.
+    p.mb-5(data-aos="fade-right") Es importante conocer y recordar algunos términos relacionados con la farmacotecnia, que serán de gran aporte para la comprensión del contenido que se desarrollará durante el componente formativo.
+    .h4(data-aos="fade-left") Droga
+    p.mb-5(data-aos="fade-right") Es toda sustancia que, introducida al organismo por cualquier vía de administración, produce una alteración del natural funcionamiento del sistema de la persona, siendo susceptible a crear dependencia psicológica, física o ambas.
 
     .BGIMG01.px-md-5.px-4.py-4.mb-5
       .row.justify-content-end.align-items-center
@@ -19,15 +19,15 @@
             p Es toda sustancia activa o inactiva empleada en la fabricación de un medicamento que, en el transcurso del proceso, puede:
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Permanecer inalterada.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Modificarse.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Desaparecer en el transcurso del proceso.
-            Para el correcto manejo de las materias primas, se deben tener en cuenta aspectos relacionados con su recepción, verificación, control de calidad y almacenamiento, como se detalla a continuación.
+            p Para el correcto manejo de las materias primas, se deben tener en cuenta aspectos relacionados con su recepción, verificación, control de calidad y almacenamiento, como se detalla a continuación.
         .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img01.jpg' alt="Imagen decorativa")
 
@@ -35,7 +35,7 @@
       .col-lg-8.mb-5
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Figura 1.
-          span Manejo materias prima
+          span Manejo materias primas
         figure(data-aos="zoom-in" alt="Imagen que muestra la recepción de materias primas y los productos de acondicionamiento, esto es: <br>Cuarentena: situación de materias primas, de productos intermedios a granel o terminados y materiales de acondicionamiento que se encuentren aislados físicamente o de otra forma mientras se decide su aprobación o rechazo; de esta cuarentena sale un registro con datos del proveedor, lote, control de capacidad, número de envases, etc. y a su vez de la hoja de registro se emite un certificado y etiqueta hacia la cuarentena.")
           img(src="@/assets/curso/tema1/img02.svg" alt="Imagen decorativa")
       .col-lg-8
@@ -56,31 +56,31 @@
       h5 Tabla 1.
       span Ejemplos principios activos
 
-    .tabla-a.color-primario.mb-5(data-aos="zoom-in")
+    .tabla-a.color-primario.mb-5
       table(alt="Tabla que muestra los diferentes equipos que se utilizan para la separación de resíduos y los elementos a utilizar.")
         thead(style="border-color: #00BCD4")
-          tr
+          tr(data-aos="fade-right")
             th(style="background-color: #95DCE5; width: 16.6%; font-size: 18px").text-center Nombre principio activo
             th(style="background-color: #95DCE5; width: 33.3%; font-size: 18px").text-center Indicación
             th(style="background-color: #95DCE5; width: 30%; font-size: 18px").text-center Acción farmacológica
             th(style="background-color: #95DCE5; width: 20%; font-size: 18px").text-center Utilizado en
         tbody
-          tr
+          tr(data-aos="fade-right")
             th(style="background-color: #FFFFFF;") Sulfato de zinc.
             td(style="background-color: #FFFFFF;") Tratamiento de dermatitis, acné, úlceras indoloras, lupus eritematoso, impétigo y eczema agudo.
             td(style="background-color: #FFFFFF;") Antiséptico débil (1 % de concentración) y astringente (0,5 %).
             td(style="background-color: #FFFFFF;") Soluciones tópicas.
-          tr
+          tr(data-aos="fade-right")
             th(style="background-color: #F1F1F1;") Sulfato de cobre.
             td(style="background-color: #F1F1F1;") Tratamiento del herpes simple y varicela zóster. Es eficaz para secar las típicas vesículas y para evitar la extensión de la infección viral. Muy útil en impétigo, dermatitis exudativas y costrosas.
             td(style="background-color: #F1F1F1;") Astringente, cáustico, antiséptico, fungicida y secante.
             td(style="background-color: #F1F1F1;") Soluciones tópicas.
-          tr
+          tr(data-aos="fade-right")
             th(style="background-color: #FFFFFF;") Eosina.
             td(style="background-color: #FFFFFF;") Tratamiento y desinfección de heridas superficiales y quemaduras leves.
             td(style="background-color: #FFFFFF;") Desinfectante cutáneo.
             td(style="background-color: #FFFFFF;") Soluciones tópicas.
-          tr
+          tr(data-aos="fade-right")
             th(style="background-color: #F1F1F1;") Óxido de zinc.
             td(style="background-color: #F1F1F1;") Quemaduras leves, raspones, sedante del ardor y del prurito en eccemas, eritrodermias, rozadura por pañal. Prevención de maceraciones.
             td(style="background-color: #F1F1F1;") Emoliente protector y astringente cutáneo.
@@ -98,9 +98,9 @@
           img.w-75(src='@/assets/curso/tema1/img04.png' alt="Imagen decorativa")
     
     .row.justify-content-center.mb-5
-      .col-lg-3.col-6.mb-lg-0.mb-4
+      .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img05.svg' alt="Imagen decorativa")
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         TabsA.color-acento-contenido
           .BGRB03.p-4(titulo="Especificidad farmacéutica")
             .h4.text-purple Especificidad farmacéutica
@@ -127,28 +127,28 @@
           .BGRS03.py-5.px-4
             .h4 Incompatibilidades preparaciones magistrales
             p Son alteraciones degradativas de un preparado farmacéutico que pueden ser ocasionadas por interacciones entre dos o más componentes. 
-            p Antes se relacionaban aquellas alteraciones de los componentes que aparecían en el proceso de fabricación de preparados farmacéuticos, como:
+            p Antes se relacionaban aquellas #[strong alteraciones] de los componentes que aparecían en el #[strong proceso de fabricación] de preparados farmacéuticos, como:
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Licuefacción.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Alteración del olor, sabor, coloración.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Desprendimiento de gas.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Precipitación. 
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Gelificación.
 
-    p.mb-5 Y son consideradas alteraciones no intencionadas que #[strong afectan a la acción] o que impiden que se realice una #[strong dosificación adecuada y exacta], o que influencia el aspecto de manera tan negativa que el preparado farmacéutico debe ser rechazado por razones éticas.
+    p.mb-5(data-aos="fade-right") Y son consideradas alteraciones no intencionadas que #[strong afectan a la acción] o que impiden que se realice una #[strong dosificación adecuada y exacta], o que influencia el aspecto de manera tan negativa que el preparado farmacéutico debe ser rechazado por razones éticas.
     .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
       p.mb-0 Si aparece una alteración degradativa al cabo de un tiempo de #[strong almacenamiento] se llama #[strong inestabilidad].
-    p.mb-5 Las incompatibilidades se pueden clasificar de la siguiente forma:
+    p.mb-5(data-aos="fade-right") Las incompatibilidades se pueden clasificar de la siguiente forma:
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4
@@ -167,15 +167,15 @@
         p En la fabricación de las preparaciones magistrales participan componentes como: 
         ul.lista-ul--color
           li
-            i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            i.fas.fa-atom(style="color: #FF9D00;")
             | El o los principios activos.
         ul.lista-ul--color
           li
-            i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            i.fas.fa-atom(style="color: #FF9D00;")
             | Excipientes.
         ul.lista-ul--color
           li
-            i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            i.fas.fa-atom(style="color: #FF9D00;")
             | Envases.
     
     p.mb-5 Y las incompatibilidades se pueden presentar entre estos mismos o sustancias extrañas presentes, de la siguiente forma:
@@ -201,39 +201,39 @@
     .BGIMG01.px-md-5.px-4.py-4.mb-5
       .row.justify-content-center
         .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-            p Dentro de los factores que pueden generar dichas incompatibilidades, se encuentran: 
-            ul.lista-ul--color
-              li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-                | La concentración elevada de los principios activos.
-                ul.lista-ul--color
-              li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-                | Cambios en el pH.
-                ul.lista-ul--color
-              li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-                | Electrolitos.
-                ul.lista-ul--color
-              li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-                | Los conservantes.
-                ul.lista-ul--color
-              li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-                | Sustancias tensoactivas.
-                ul.lista-ul--color
-              li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-                | Baja solubilidad entre componentes.
-                ul.lista-ul--color
-              li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-                | Presencia de contaminantes.
+          p Dentro de los factores que pueden generar dichas incompatibilidades, se encuentran: 
+          ul.lista-ul--color
+            li
+              i.fas.fa-atom(style="color: #FF9D00;")
+              | La concentración elevada de los principios activos.
+              ul.lista-ul--color
+            li
+              i.fas.fa-atom(style="color: #FF9D00;")
+              | Cambios en el pH.
+              ul.lista-ul--color
+            li
+              i.fas.fa-atom(style="color: #FF9D00;")
+              | Electrolitos.
+              ul.lista-ul--color
+            li
+              i.fas.fa-atom(style="color: #FF9D00;")
+              | Los conservantes.
+              ul.lista-ul--color
+            li
+              i.fas.fa-atom(style="color: #FF9D00;")
+              | Sustancias tensoactivas.
+              ul.lista-ul--color
+            li
+              i.fas.fa-atom(style="color: #FF9D00;")
+              | Baja solubilidad entre componentes.
+              ul.lista-ul--color
+            li
+              i.fas.fa-atom(style="color: #FF9D00;")
+              | Presencia de contaminantes.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img12.svg' alt="Imagen decorativa")
 
-    p.mb-5 Y dentro de los resultados que pueden traer dichos factores, podemos encontrar los siguientes:
+    p.mb-5(data-aos="fade-right") Y dentro de los resultados que pueden traer dichos factores, podemos encontrar los siguientes:
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -241,32 +241,32 @@
           h5 Tabla 2.
           span Consecuencias factores que generan incompatibilidades
 
-        .tabla-a.color-primario(data-aos="zoom-in")
+        .tabla-a.color-primario
           table(alt="Tabla que muestra las consecuencias en los factores que generan incompatibilidades.")
             thead(style="border-color: #00BCD4")
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #95DCE5; font-size: 18px").text-center Factor
                 th(style="background-color: #95DCE5; font-size: 18px").text-center Consecuencia
             tbody
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #FFFFFF;") Concentración elevada de los principios activos.
                 td(style="background-color: #FFFFFF;") Saturación de la mezcla, precipitación de los principios activos y alteración de las características organolépticas del producto.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #F1F1F1;") Cambios de pH.
                 td(style="background-color: #F1F1F1;") Se cae la viscosidad del producto.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #FFFFFF;") Presencia de electrolitos.
                 td(style="background-color: #FFFFFF;") Caída de la viscosidad, precipitación.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #F1F1F1;") Los conservantes.
                 td(style="background-color: #F1F1F1;") Reaccionan con algunos componentes de la fórmula y su capacidad conservadora se ve disminuida.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #FFFFFF;") Sustancias tensoactivas.
                 td(style="background-color: #FFFFFF;") Enturbiamiento y coagulación de la mezcla.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #F1F1F1;") Baja solubilidad entre componentes.
                 td(style="background-color: #F1F1F1;") Que no se mezclen entre ellos y generan precipitaciones.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #FFFFFF;") Presencia de contaminantes.
                 td(style="background-color: #FFFFFF;") Reaccionan con componentes de la fórmula y generar cambios en las características organolépticas, además de contaminación del producto.
 
@@ -280,7 +280,7 @@
       .col-lg-4.col-6.ps-0.order-lg-3.order-2.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img14.jpg' alt="Imagen decorativa")
     
-    p.mb-5 Estos componentes interactúan entre sí para lograr un producto final que cumpla con las especificaciones definidas. Entre las interacciones que se pueden presentan en estos productos se pueden encontrar las siguientes:
+    p.mb-5(data-aos="fade-right") Estos componentes interactúan entre sí para lograr un producto final que cumpla con las especificaciones definidas. Entre las interacciones que se pueden presentan en estos productos se pueden encontrar las siguientes:
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4
@@ -290,7 +290,7 @@
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/img15.svg" alt="Imagen que describe las interacciones químicas que son el sinergismo y el antagonismo, ambas se explican luego de la figura.")
     
-    p.mb-5 Ahora bien, dentro de los tres tipos de sinergismos que se conocen, están los siguientes:
+    p.mb-5(data-aos="fade-right") Ahora bien, dentro de los tres tipos de sinergismos que se conocen, están los siguientes:
 
     .BG06.p-4.mb-5(data-aos="zoom-in")
       LineaTiempoC.color-secundario(text-small)
@@ -300,7 +300,7 @@
           .col-lg-5
             p Es el resultado de dos o más productos químicos que actúan juntos y representan la simple suma de sus efectos cuando actúan independientemente.
             .BG05.p-4.mb-4
-              p.mb-0 Producen el mismo efecto por igual mecanismos de 
+              p.mb-0 Producen el mismo efecto por igual mecanismos de acción.
             p.mb-0 #[strong Ejemplo]: organofosforados y carbamatos.
         .row.justify-content-center(titulo="Potenciación (multiplicador)")
           .col-lg-5.col-10.mb-lg-0.mb-4
@@ -313,20 +313,21 @@
           .col-lg-5.col-10.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img18.svg" alt="Imagen que muestra la combinación de una sustancia que no es dañina con otra.")
           .col-lg-5
-            p Es cuando una sustancia que no produce daño, al combinarse con otra sustancia aumenta los efetos de esta.
+            p Es cuando una sustancia que no produce daño, al combinarse con otra sustancia aumenta los efectos de esta.
             .BG05.p-4
               p.mb-0 Uno de los compuestos no es tóxico.
 
-    p Y dentro de los 4 tipos de sinergismos que se conocen, están los siguientes:
+    p.mb-5(data-aos="fade-right") Y dentro de los 4 tipos de sinergismos que se conocen, están los siguientes:
 
     LineaTiempoB.color-secundario(:datos="datosLineaTiempo" data-aos="zoom-in")
       
 </template>
 
 <script>
+import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { LineaTiempoC },
   data: () => ({
     datosLineaTiempo: [
       {

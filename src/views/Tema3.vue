@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Etapas del proceso de elaboración de preparaciones magistrales tópicas no estériles
@@ -16,47 +16,47 @@
             p Las preparaciones magistrales, como cualquier otro medicamento, deben cumplir requisitos de:
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Seguridad.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Eficacia.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Calidad.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Identificación correcta.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Información debida.
             p Se debe estudiar de manera muy precisa la fórmula médica, identificar si es posible su correcta elaboración, es decir, si existe una validación de la fórmula por parte del químico farmacéutico responsable.
 
     .BGIMG03.px-md-5.px-4.py-4.mb-4
       .row.justify-content-center.align-items-center
-        .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
+        .col-lg-8.order-lg-1.order-2
           p Para iniciar con el proceso de elaboración se debe cumplir con unos requisitos, que soporten el proceso y permitan que, a través de su correcta aplicación, se dé cumplimiento a las Buenas Prácticas de Elaboración (BPE), que involucran: 
           ul.lista-ul--color
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Materiales.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Áreas.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Equipos.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Personal idóneo.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Materias primas.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Equipos.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Documentación.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img.w-75(src='@/assets/curso/tema3/img02.png' alt="Imagen decorativa")
@@ -65,7 +65,7 @@
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 3.1 Procedimiento del proceso de elaboración de preparados magistrales
 
-    p Como todo proceso, las preparaciones magistrales deben tener como base un manual y/o procedimiento y los respectivos documentos que se generan de estos (instructivos, formatos), donde se detalle la siguiente información:
+    p.mb-5(data-aos="fade-right") Como todo proceso, las preparaciones magistrales deben tener como base un manual o procedimiento y los respectivos documentos que se generan de estos (instructivos, formatos), donde se detalle la siguiente información:
 
     .BGM08.p-md-5.py-4.mb-5
       .row.justify-content-end.align-items-center
@@ -73,31 +73,31 @@
           .BGRT03.py-5.px-4
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Nombre del proceso.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Alcance.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Responsables.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Objetivo.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Glosarios y siglas.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Contenido (donde se detallan secuencialmente las actividades a realizar en orden).
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Documentos de referencia.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Registros que se generan.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Anexos (en caso de que apliquen).
         .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img03.jpg' alt="Imagen decorativa")
@@ -134,7 +134,7 @@
                     span(style="color: #000; font-weight: 400") Ver
                     i.fas.fa-link(style="color: #000")
     
-    p.mb-5 En el siguiente flujograma se muestran las etapas del proceso de elaboración de los preparados magistrales, desde la prescripción médica, pasando por las verificaciones de las condiciones locativas, para garantizar la pertinencia con las BPE, controles de calidad, acondicionamiento y dispensación al usuario final. 
+    p.mb-5(data-aos="fade-right") En el siguiente flujograma se muestran las etapas del proceso de elaboración de los preparados magistrales, desde la prescripción médica, pasando por las verificaciones de las condiciones locativas, para garantizar la pertinencia con las BPE, controles de calidad, acondicionamiento y dispensación al usuario final. 
 
     .row.justify-content-center.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
@@ -143,19 +143,19 @@
       figure(data-aos="zoom-in")
         img(src="@/assets/curso/tema3/img06.svg" alt="Imagen que muestra a través de un esquema las diferentes etapas del proceso de elaboración de los preparados magistrales, que inicia desde la prescripción que hace el medico tratante, hasta la dispensación al paciente o usuario final.")
     
-    p En este recorrido por el proceso de elaboración de las preparaciones se tratarán los siguientes temas:
+    p(data-aos="fade-right") En este recorrido por el proceso de elaboración de las preparaciones se tratarán los siguientes temas:
     ul.lista-ul--color
-      li
-        i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+      li(data-aos="fade-right")
+        i.fas.fa-atom(style="color: #FF9D00;")
         | Requisitos del área de recepción.
-      li
-        i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+      li(data-aos="fade-right")
+        i.fas.fa-atom(style="color: #FF9D00;")
         | Requisitos del área de almacenamiento.
-      li
-        i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
-        | Requisitos del paquete técnico de producción (#[em Batch Record]): orden de producción, despeje de línea inicial, procedimiento de elaboración, producto en proceso, despeje de línea final, lista de chequeo de proceso de llenado, limpieza de equipos.
-      li
-        i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+      li(data-aos="fade-right")
+        i.fas.fa-atom(style="color: #FF9D00;")
+        | Requisitos del paquete técnico de producción (Batch Record): orden de producción, despeje de línea inicial, procedimiento de elaboración, producto en proceso, despeje de línea final, lista de chequeo de proceso de llenado, limpieza de equipos.
+      li(data-aos="fade-right")
+        i.fas.fa-atom(style="color: #FF9D00;")
         | Equipos necesarios para el proceso de elaboración.
 
     separador
@@ -163,7 +163,7 @@
       h2 3.2 Requisitos área de recepción y almacenamiento de las preparaciones magistrales
 
     .BGIMG05.px-md-5.px-4.py-4.mb-4
-      p.mb-5 El área para la recepción de materias primas y materiales de acondicionamiento debe ser independiente del área de fabricación que debe estar identificada y debe contar con las zonas delimitadas de ingresos, cuarentena y material rechazado. 
+      p.mb-5(data-aos="fade-right") El área para la recepción de materias primas y materiales de acondicionamiento debe ser independiente del área de fabricación que debe estar identificada y debe contar con las zonas delimitadas de ingresos, cuarentena y material rechazado. 
       .row.justify-content-center
         .col-lg-6
           .titulo-sexto.color-acento-botones(data-aos="fade-right")
@@ -172,38 +172,38 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema3/img07.svg" alt="Imagen que muestra las diferentes áreas de recepción y almacenamiento de preparaciones magistrales.")
     
-    p Los requisitos del área de recepción y almacenamiento de materias primas son:
+    p.mb-5(data-aos="fade-right") Los requisitos del área de recepción y almacenamiento de materias primas son:
 
     .row.justify-content-start.mb-5
       .col-xl-4.col-md-6.mb-4(data-aos="fade-right")
-        .tarjeta-numerada.color-acento-contenido.hg02.ps-5.pe-4.py-4
+        .tarjeta-numerada.color-acento-contenido.h-100.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 1
           p.mb-0 El área de almacenamiento de materias primas y material de acondicionamiento debe ser de acceso restringido para personas ajenas al establecimiento; asimismo, debe ser de fácil limpieza, equipado con mobiliario adecuado para este fin, con una separación mínima de 20 cm del suelo y del techo que facilite su limpieza y garantice la protección del polvo y la luz (si aplica).
       .col-xl-4.col-md-6.mb-4(data-aos="fade-up")
-        .tarjeta-numerada.color-acento-contenido.hg02.ps-5.pe-4.py-4
+        .tarjeta-numerada.color-acento-contenido.h-100.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 2
           p.mb-0 Debe contar con un refrigerador para los productos que requieran refrigeración que incluya un termómetro y los registros de temperatura correspondientes, con sus límites de alerta y de acción. 
       .col-xl-4.col-md-6.mb-4(data-aos="fade-left")
-        .tarjeta-numerada.color-acento-contenido.hg02.ps-5.pe-4.py-4
+        .tarjeta-numerada.color-acento-contenido.h-100.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 3
           p.mb-0 Las áreas destinadas para el almacenamiento de especialidades farmacéuticas deberán estar separadas y ser completamente independientes. 
       .col-xl-4.col-md-6.mb-4(data-aos="fade-right")
-        .tarjeta-numerada.color-acento-contenido.hg02.ps-5.pe-4.py-4
+        .tarjeta-numerada.color-acento-contenido.h-100.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 4
           p.mb-0 El mobiliario para el resguardo del material de acondicionamiento debe ser adecuado para evitar su contaminación y que se ponga directamente en el piso. 
       .col-xl-4.col-md-6(data-aos="fade-up")
-        .tarjeta-numerada.color-acento-contenido.hg02.ps-5.pe-4.py-4
+        .tarjeta-numerada.color-acento-contenido.h-100.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 5
           p.mb-0 Las etiquetas deben estar almacenadas en un lugar protegido de la humedad y de acceso controlado. 
 
     separador
     #t_3_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2 3.3 Paquete técnico de producción (#[em Batch Record]) 
+      h2 3.3 Paquete técnico de producción (Batch Record) 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-6.pe-0.order-1.mb-lg-0.mb-4(data-aos="fade-right")
@@ -213,50 +213,50 @@
           p En este paquete tan importante dentro del proceso de elaboración de los productos farmacéuticos, es donde se dejan evidencias de todas las etapas necesarias, se consignan registros como: 
           ul.lista-ul--color
             li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Orden de producción.
             li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Despeje de línea inicial.
             li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Procedimiento de elaboración.
             li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Producto en proceso.
             li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Despeje de línea final.
             li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Lista de chequeo de proceso de llenado.
             li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Limpieza de equipos.
       .col-lg-4.col-6.ps-0.order-lg-3.order-2.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img09.jpg' alt="Imagen decorativa")
 
-    p Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio #[em Batch Record] y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
-    p En tal sentido, a continuación, se encuentran las definiciones, requisitos y responsables de este proceso:
+    p(data-aos="fade-right") Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio Batch Record y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
+    p.mb-5(data-aos="fade-right") En tal sentido, a continuación, se encuentran las definiciones, requisitos y responsables de este proceso:
 
-    .BG11.p-4.mb-4
+    .BG11.p-4.mb-5
       SlyderA(tipo="b" data-aos="zoom-in")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             .h4 Definiciones
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900"><em>Batch Record</em> (BR)</a>: registro que contiene la información sobre la producción y el control ejercido en las diferentes etapas de fabricación y/o acondicionamiento de un producto.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Batch Record (BR):] registro que contiene la información sobre la producción y el control ejercido en las diferentes etapas de fabricación o acondicionamiento de un producto.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Liberación del lote</a>: aprobar y autorizar el lote para su distribución.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Liberación del lote:] aprobar y autorizar el lote para su distribución.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Lote origen (LO)</a>: lote origen (del material) y/o asignado por el cliente.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Lote origen (LO):] lote origen (del material) o asignado por el cliente.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Lote interno (LI)</a>: lote asignado por producción y gestión.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Lote interno (LI):] lote asignado por producción y gestión.
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img10.png' alt="Imagen decorativa")
         .row.justify-content-center
@@ -264,23 +264,23 @@
             .h4 Requisitos
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | El <em>Batch Record</em> debe ser diligenciado por el personal encargado de cada proceso.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                | El Batch Record debe ser diligenciado por el personal encargado de cada proceso.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | La información debe ser legible, sin enmendaduras y no se deben dejar espacios en blanco. 
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | Diligenciar cada campo del <em>Batch Record</em> en el momento en que se está realizando el proceso indicado. Los documentos deben llenarse con esfero de tinta negra.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                | Diligenciar cada campo del Batch Record en el momento en que se está realizando el proceso indicado. Los documentos deben llenarse con esfero de tinta negra.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | Cuando varias actividades que se ejecuten en una misma hoja del <em>Batch Record</em> ocurren simultáneamente en 2 o más procesos. Se debe contar con una copia de esta en cada proceso que se adjuntará al <em>Batch Record</em>.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                | Cuando varias actividades que se ejecuten en una misma hoja del Batch Record ocurren simultáneamente en 2 o más procesos. Se debe contar con una copia de esta en cada proceso que se adjuntará al Batch Record.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Cuando los campos disponibles para diligenciar se agoten en alguna de las hojas. Se debe diligenciar una copia en blanco de la misma hoja. 
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | El personal encargado debe solicitar a su jefe inmediato el <em>Batch Record</em> para diligenciar inmediatamente le sea entregada la orden de producción.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                | El personal encargado debe solicitar a su jefe inmediato el Batch Record para diligenciar inmediatamente le sea entregada la orden de producción.
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img11.png' alt="Imagen decorativa")
         .row.justify-content-center
@@ -288,27 +288,27 @@
             .h4 Responsables
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Personal operativo</a>: consignar la información completa y correcta, cumpliendo con las buenas prácticas de registro. La última persona encargada del proceso al que es sometido un producto deberá recopilar y entregar el <em>Batch Record</em> a ingeniería de procesos o supervisión de producción.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Personal operativo:] consignar la información completa y correcta, cumpliendo con las buenas prácticas de registro. La última persona encargada del proceso al que es sometido un producto deberá recopilar y entregar el Batch Record a ingeniería de procesos o supervisión de producción.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Supervisión de producción</a>: debe asegurar que la información consignada en el <em>Batch Record</em> esté completa, sea verídica y cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Supervisión de producción:] debe asegurar que la información consignada en el Batch Record esté completa, sea verídica y cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Coordinación de planeación</a>: suministrar las órdenes de producción con la información necesaria para el diligenciamiento básico del <em>Batch Record</em>.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Coordinación de planeación:] suministrar las órdenes de producción con la información necesaria para el diligenciamiento básico del Batch Record.
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Ingeniería de procesos</a>: asegurar que la información consignada en el <em>Batch Record</em> esté completa, verificada y que cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad. 
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Ingeniería de procesos:] asegurar que la información consignada en el Batch Record esté completa, verificada y que cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad. 
               li
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | <a style="font-weigh: 900">Dirección técnica</a>: revisar y aprobar los <em>Batch Record</em> para la liberación de productos salvaguardados físicamente y compilar su información digitalmente, asegurándose de que se cumplan todas las normas estipuladas. 
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[strong Dirección técnica:] revisar y aprobar los Batch Record para la liberación de productos salvaguardados físicamente y compilar su información digitalmente, asegurándose de que se cumplan todas las normas estipuladas. 
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img12.png' alt="Imagen decorativa")
     
-    p Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
+    p.mb-5(data-aos="fade-right") Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
     
     .BG06.p-4.mb-5(data-aos="zoom-in")
-      PasosB.color-secundario
+      LineaTiempoC.color-secundario
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
             .h4 Orden de producción
@@ -320,34 +320,34 @@
             p Se debe diligenciar:
             ul.lista-ul--color
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Fecha de inicio.
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Fecha de finalización (al terminar la producción).
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Fecha de vencimiento del producto.
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Orden de producción del sistema de manejo de inventario (Factory).
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
-                | Stock del producto a realizar.
+                i.fas.fa-atom(style="color: #7E5EE3;")
+                p.mb-0 #[em Stock] del producto a realizar.
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Descripción del producto.
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Cantidad programada.
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Rendimiento teórico.
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Rendimiento real (al terminar la producción).
               li(style="margin-bottom: 2px")
-                i.fas.fa-atom.fa-spin(style="color: #7E5EE3;")
+                i.fas.fa-atom(style="color: #7E5EE3;")
                 | Lote.
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
@@ -381,7 +381,7 @@
                   th(style="padding: 0.3em; border-top: 3px solid #7E5EE3; border-right: 3px solid #7E5EE3; border-bottom: 3px solid #7E5EE3; font-size: 18px").text-center 9
                   th(style="padding: 0.3em; border-top: 3px solid #7E5EE3; border-right: 3px solid #7E5EE3; border-bottom: 3px solid #7E5EE3; font-size: 18px").text-center 0
             
-            p La segunda letra hace referencia al mes en el que se produce el producto, cada mes del año equivale a una letra de la palabra #[strong stenoraphic]. Como se muestra a continuación:
+            p La segunda letra hace referencia al mes en el que se produce el producto, cada mes del año equivale a una letra de la palabra #[strong #[em stenoraphic]]. Como se muestra a continuación:
             .tabla-b.mb-4
               table
                 thead
@@ -852,22 +852,22 @@
             p En el ejemplo de las tablas, se observan los controles al proceso de acondicionamiento verificando que cumpla con las siguientes características: 
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Etiqueta correcta y bien situada.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Sticker colocado, si se encuentra bien sellado.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Limpieza exterior.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Presencia del lote y la codificación.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Se observan los intervalos en los cuales se hacen los controles y el reporte del cumplimiento con la letra “C”.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Firma de quien hizo la verificación.
           .col-lg-7.col.BG12.p-4
             .titulo-sexto.color-acento-botones
@@ -881,10 +881,10 @@
             .h4 Controles producto entregado
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | En diferentes fases del proceso de producción, se pueden generar novedades o solicitudes de producto, ya sea que este se encuentre sin procesar, en proceso, terminado, cuarentena o rechazado. Estos movimientos deben ser controlados y monitoreados para conocer el estado actual del producto, controlar el inventario de este, conocer su ubicación y la causa de la decisión de traslado.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Un ejemplo claro podría ser la elaboración de un preparado magistral que está en fase de cuarentena, de este producto se deben sacar muestras y enviar a control de calidad para que realice las pruebas pertinentes con el objetivo de verificar si cumple con los parámetros establecidos. Dicho movimiento de las muestras debe quedar registrado en el formato designado para esto.
           .col-lg-5.col-10.BG12.p-4
             p En la tabla se muestra un ejemplo.
@@ -900,22 +900,22 @@
             p Luego del proceso de aprobación por parte del área de control de calidad, se procede a la realización del proceso de acondicionamiento final donde se realizan controles externos al producto como: 
             ul.lista-ul--color
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Errores de impresión en la etiqueta.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Rayones.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Quebrados rotos.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Dimensiones erróneas.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Contaminación.
               li
-                i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+                i.fas.fa-atom(style="color: #FF9D00;")
                 | Golpes, entre otros.
             p.mb-0 La tabla muestra un ejemplo de la información a controlar.
           .col-lg-5.col-10.BG12.p-4
@@ -928,8 +928,8 @@
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
             .h4 Formato aprobación
-            p Finalmente, el director técnico responsable, deberá revisar cada uno de los documentos del #[em Batch Record], verificar que cumplieron con todos los requisitos y dar su aval para que se libere el lote y pase al proceso de almacenamiento para su posterior dispensación al usuario final.
-            p.mb-0 #[strong Nota]: si durante el proceso existen algunas desviaciones de calidad, que no afectan al producto ni al usuario final, el director técnico debe dejar aclarado eso en el #[em Batch Record].
+            p Finalmente, el director técnico responsable, deberá revisar cada uno de los documentos del Batch Record, verificar que cumplieron con todos los requisitos y dar su aval para que se libere el lote y pase al proceso de almacenamiento para su posterior dispensación al usuario final.
+            p.mb-0 #[strong Nota]: si durante el proceso existen algunas desviaciones de calidad, que no afectan al producto ni al usuario final, el director técnico debe dejar aclarado eso en el Batch Record.
           .col-lg-5.col-10.BG12.p-4
             p Observaciones:
             hr(style="border-color: #7E5EE3; margin: 1em; opacity: initial")
@@ -969,44 +969,44 @@
     #t_3_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 3.4 Equipos requeridos para las preparaciones magistrales tópicas no estériles
 
-    .BGIMG04.px-md-5.px-4.py-4.mb-4
-      p Para las preparaciones no estériles se requieren equipos e instrumentos, que deben cumplir con requerimientos relacionados con el mantenimiento, limpieza, exactitud y precisión en la medición, ser los adecuados para el tipo de productos, escalas de medición adecuadas.
-      p Dentro de los equipos e instrumentos fundamentales, están los siguientes:
+    .BGIMG04.px-md-5.px-4.py-4.mb-5
+      p(data-aos="fade-right") Para las preparaciones no estériles se requieren equipos e instrumentos, que deben cumplir con requerimientos relacionados con el mantenimiento, limpieza, exactitud y precisión en la medición, ser los adecuados para el tipo de productos, escalas de medición adecuadas.
+      p(data-aos="fade-right") Dentro de los equipos e instrumentos fundamentales, están los siguientes:
       .row.justify-content-start.align-items-center
-        .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
+        .col-lg-7.order-lg-1.order-2
           ul.lista-ul--color
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Mesa antivibratoria.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Estanterías.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Armarios.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Balanzas.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Agitadores magnéticos.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Estufa.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Nevera.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | pH-metro.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Material de vidrio.
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Baño de calor (baño María).
-            li
-              i.fas.fa-atom.fa-pulse(style="color: #FF9D00;")
+            li(data-aos="fade-right")
+              i.fas.fa-atom(style="color: #FF9D00;")
               | Re envasador.
           p En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
@@ -1216,8 +1216,11 @@
 </template>
 
 <script>
+import LineaTiempoC from '@/components/LineaTiempoC.vue'
+import SlyderF from '@/components/SlyderF.vue'
 export default {
   name: 'Tema3',
+  components: { LineaTiempoC, SlyderF },
   data: () => ({
     modal1: false,
     modal2: false,
