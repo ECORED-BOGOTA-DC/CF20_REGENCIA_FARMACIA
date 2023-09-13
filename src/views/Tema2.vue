@@ -390,7 +390,7 @@
     p.mb-5(data-aos="fade-right") Algunos ejemplos de envases primarios para uso en las preparaciones magistrales son:
 
     .BG06.p-4.mb-5(data-aos="zoom-in")
-      PasosB.color-secundario
+      LineaTiempoC.color-secundario
         .row.justify-content-center(titulo="Vidrio")
           .col-lg-5.col-10.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img18.jpg" alt="Imagen decorativa")
