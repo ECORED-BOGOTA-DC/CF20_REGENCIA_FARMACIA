@@ -195,7 +195,7 @@
           .tarjeta-numerada__numero
             .h2 4
           p.mb-0 El mobiliario para el resguardo del material de acondicionamiento debe ser adecuado para evitar su contaminación y que se ponga directamente en el piso. 
-      .col-xl-4.col-md-6(data-aos="fade-up")
+      .col-xl-4.col-md-6.mb-4(data-aos="fade-up")
         .tarjeta-numerada.color-acento-contenido.h-100.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 5
@@ -381,7 +381,7 @@
                   th(style="padding: 0.3em; border-top: 3px solid #7E5EE3; border-right: 3px solid #7E5EE3; border-bottom: 3px solid #7E5EE3; font-size: 18px").text-center 9
                   th(style="padding: 0.3em; border-top: 3px solid #7E5EE3; border-right: 3px solid #7E5EE3; border-bottom: 3px solid #7E5EE3; font-size: 18px").text-center 0
             
-            p La segunda letra hace referencia al mes en el que se produce el producto, cada mes del año equivale a una letra de la palabra #[strong #[em stenoraphic]]. Como se muestra a continuación:
+            p La segunda letra hace referencia al mes en el que se produce el producto, cada mes del año equivale a una letra de la palabra #[strong #[em stenographic]]. Como se muestra a continuación:
             .tabla-b.mb-4
               table
                 thead
@@ -1216,11 +1216,9 @@
 </template>
 
 <script>
-import LineaTiempoC from '@/components/LineaTiempoC.vue'
-import SlyderF from '@/components/SlyderF.vue'
 export default {
   name: 'Tema3',
-  components: { LineaTiempoC, SlyderF },
+  components: {},
   data: () => ({
     modal1: false,
     modal2: false,

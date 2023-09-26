@@ -178,7 +178,7 @@
             i.fas.fa-atom(style="color: #FF9D00;")
             | Envases.
     
-    p.mb-5 Y las incompatibilidades se pueden presentar entre estos mismos o sustancias extrañas presentes, de la siguiente forma:
+    p.mb-5(data-aos="fade-right") Y las incompatibilidades se pueden presentar entre estos mismos o sustancias extrañas presentes, de la siguiente forma:
     
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -324,10 +324,9 @@
 </template>
 
 <script>
-import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema1',
-  components: { LineaTiempoC },
+  components: {},
   data: () => ({
     datosLineaTiempo: [
       {
