@@ -11,7 +11,7 @@
     
     figure.mb-4(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/EvCtbrFspJY?si=uwPEdFxtusPwSHa_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/8tWlvJO6DeY?si=BH8Y2XbAGYFQGshe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .BG01.p-4.mb-5
       .row.justify-content-center.align-items-center

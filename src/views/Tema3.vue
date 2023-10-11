@@ -101,22 +101,6 @@
                 | Anexos (en caso de que apliquen).
         .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img03.jpg' alt="Imagen decorativa")
-    
-    .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="flip-up")
-        .BGR10.p-3
-          .row.justify-content-around.align-items-center
-            .col-4.col-sm-3.col-lg-2.px-3
-              img(src="@/assets/curso/tema3/img04.svg" alt="Imagen decorativa")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.text-white.mb-1 Elaboración y Control de una Fórmula Magistral
-                  p.text-white.mb-0 Para mayor profundización en el tema, se invita al aprendiz a consultar el siguiente documento donde se encontrará un ejemplo de un procedimiento que aplica al proceso descrito. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_Procedimiento_de_elaboración_y_control_de_preparaciones_magistrales.pdf')" target="_blank" type="application/pdf")
-                    span(style="color: #000; font-weight: 400") Descargar
-                    i.fas.fa-file-download(style="color: #000")
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -147,16 +131,20 @@
     ul.lista-ul--color
       li(data-aos="fade-right")
         i.fas.fa-atom(style="color: #FF9D00;")
-        | Requisitos del área de recepción.
+        |
+        p.mb-0 Requisitos del área de recepción.
       li(data-aos="fade-right")
         i.fas.fa-atom(style="color: #FF9D00;")
-        | Requisitos del área de almacenamiento.
+        |
+        p.mb-0 Requisitos del área de almacenamiento.
       li(data-aos="fade-right")
         i.fas.fa-atom(style="color: #FF9D00;")
-        | Requisitos del paquete técnico de producción (Batch Record): orden de producción, despeje de línea inicial, procedimiento de elaboración, producto en proceso, despeje de línea final, lista de chequeo de proceso de llenado, limpieza de equipos.
+        |
+        p.mb-0 Requisitos del paquete técnico de producción (#[i Batch Record]): orden de producción, despeje de línea inicial, procedimiento de elaboración, producto en proceso, despeje de línea final, lista de chequeo de proceso de llenado, limpieza de equipos.
       li(data-aos="fade-right")
         i.fas.fa-atom(style="color: #FF9D00;")
-        | Equipos necesarios para el proceso de elaboración.
+        |
+        p.mb-0 Equipos necesarios para el proceso de elaboración.
 
     separador
     #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -236,7 +224,7 @@
       .col-lg-4.col-6.ps-0.order-lg-3.order-2.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img09.jpg' alt="Imagen decorativa")
 
-    p(data-aos="fade-right") Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio Batch Record y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
+    p(data-aos="fade-right") Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio #[i Batch Record] y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
     p.mb-5(data-aos="fade-right") En tal sentido, a continuación, se encuentran las definiciones, requisitos y responsables de este proceso:
 
     .BG11.p-4.mb-5
@@ -247,7 +235,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                p.mb-0 #[strong Batch Record (BR):] registro que contiene la información sobre la producción y el control ejercido en las diferentes etapas de fabricación o acondicionamiento de un producto.
+                p.mb-0 #[strong #[i Batch Record] (BR):] registro que contiene la información sobre la producción y el control ejercido en las diferentes etapas de fabricación o acondicionamiento de un producto.
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
                 p.mb-0 #[strong Liberación del lote:] aprobar y autorizar el lote para su distribución.
@@ -265,22 +253,28 @@
             ul.lista-ul--color
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                | El Batch Record debe ser diligenciado por el personal encargado de cada proceso.
+                |
+                p.mb-0 El #[i Batch Record] debe ser diligenciado por el personal encargado de cada proceso.
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                | La información debe ser legible, sin enmendaduras y no se deben dejar espacios en blanco. 
+                |
+                p.mb-0 La información debe ser legible, sin enmendaduras y no se deben dejar espacios en blanco. 
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                | Diligenciar cada campo del Batch Record en el momento en que se está realizando el proceso indicado. Los documentos deben llenarse con esfero de tinta negra.
+                |
+                p.mb-0 Diligenciar cada campo del #[i Batch Record] en el momento en que se está realizando el proceso indicado. Los documentos deben llenarse con esfero de tinta negra.
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                | Cuando varias actividades que se ejecuten en una misma hoja del Batch Record ocurren simultáneamente en 2 o más procesos. Se debe contar con una copia de esta en cada proceso que se adjuntará al Batch Record.
+                |
+                p.mb-0 Cuando varias actividades que se ejecuten en una misma hoja del #[i Batch Record] ocurren simultáneamente en 2 o más procesos. Se debe contar con una copia de esta en cada proceso que se adjuntará al #[i Batch Record].
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                | Cuando los campos disponibles para diligenciar se agoten en alguna de las hojas. Se debe diligenciar una copia en blanco de la misma hoja. 
+                |
+                p.mb-0 Cuando los campos disponibles para diligenciar se agoten en alguna de las hojas. Se debe diligenciar una copia en blanco de la misma hoja. 
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                | El personal encargado debe solicitar a su jefe inmediato el Batch Record para diligenciar inmediatamente le sea entregada la orden de producción.
+                |
+                p.mb-0 El personal encargado debe solicitar a su jefe inmediato el #[i Batch Record] para diligenciar inmediatamente le sea entregada la orden de producción.
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img11.png' alt="Imagen decorativa")
         .row.justify-content-center
@@ -289,30 +283,30 @@
             ul.lista-ul--color
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                p.mb-0 #[strong Personal operativo:] consignar la información completa y correcta, cumpliendo con las buenas prácticas de registro. La última persona encargada del proceso al que es sometido un producto deberá recopilar y entregar el Batch Record a ingeniería de procesos o supervisión de producción.
+                p.mb-0 #[strong Personal operativo:] consignar la información completa y correcta, cumpliendo con las buenas prácticas de registro. La última persona encargada del proceso al que es sometido un producto deberá recopilar y entregar el #[i Batch Record] a ingeniería de procesos o supervisión de producción.
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                p.mb-0 #[strong Supervisión de producción:] debe asegurar que la información consignada en el Batch Record esté completa, sea verídica y cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad.
+                p.mb-0 #[strong Supervisión de producción:] debe asegurar que la información consignada en el #[i Batch Record] esté completa, sea verídica y cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad.
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                p.mb-0 #[strong Coordinación de planeación:] suministrar las órdenes de producción con la información necesaria para el diligenciamiento básico del Batch Record.
+                p.mb-0 #[strong Coordinación de planeación:] suministrar las órdenes de producción con la información necesaria para el diligenciamiento básico del #[i Batch Record].
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                p.mb-0 #[strong Ingeniería de procesos:] asegurar que la información consignada en el Batch Record esté completa, verificada y que cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad. 
+                p.mb-0 #[strong Ingeniería de procesos:] asegurar que la información consignada en el #[i Batch Record] esté completa, verificada y que cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad. 
               li
                 i.fas.fa-atom(style="color: #7E5EE3;")
-                p.mb-0 #[strong Dirección técnica:] revisar y aprobar los Batch Record para la liberación de productos salvaguardados físicamente y compilar su información digitalmente, asegurándose de que se cumplan todas las normas estipuladas. 
+                p.mb-0 #[strong Dirección técnica:] revisar y aprobar los #[i Batch Record] para la liberación de productos salvaguardados físicamente y compilar su información digitalmente, asegurándose de que se cumplan todas las normas estipuladas. 
           .col-lg-4.col-8order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img12.png' alt="Imagen decorativa")
     
-    p.mb-5(data-aos="fade-right") Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
+    p.mb-5(data-aos="fade-right") Los documentos consignados en el #[i Batch Record], deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
     
     .BG06.p-4.mb-5(data-aos="zoom-in")
       LineaTiempoC.color-secundario
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
             .h4 Orden de producción
-            p Antes de iniciar con el proceso de producción y diligenciamiento del Batch Record, se debe tener como insumo la información relacionada con el producto, la cual se detalla en la orden de producción que se genere y que autoriza el inicio de dicha actividad.
+            p Antes de iniciar con el proceso de producción y diligenciamiento del #[i Batch Record], se debe tener como insumo la información relacionada con el producto, la cual se detalla en la orden de producción que se genere y que autoriza el inicio de dicha actividad.
             p.mb-0 La información que debe ir en este documento es:
           .col-lg-5.col-10.BG12.p-4
             .h4.text-center Procedimiento 
@@ -688,9 +682,16 @@
                     td(style="border: 1px solid #707070; padding: 0.3em;")
                     td(style="border: 1px solid #707070; padding: 0.3em;")
                   tr
-                    td(style="border: 1px solid #707070; padding: 0.3em;" colspan="7").text-center Especificar en las siguientes casillas si se tiene más de un lote de la misma materia prima o más materiales para la fabricación.
+                    td(style="border: 1px solid #707070; padding: 0.3em;") Especificar en las siguientes casillas si se tiene  más de un lote de la misma materia prima o más materiales para la fabricación.
+                    td(style="border: 1px solid #707070; padding: 0.3em;") Especificar en las siguientes casillas si se tiene  más de un lote de la misma materia prima o más materiales para la fabricación.
+                    td(style="border: 1px solid #707070; padding: 0.3em;") Especificar en las siguientes casillas si se tiene  más de un lote de la misma materia prima o más materiales para la fabricación.
+                    td(style="border: 1px solid #707070; padding: 0.3em;") Especificar en las siguientes casillas si se tiene más de un lote de la misma materia prima o más materiales para la fabricación.
+                    td(style="border: 1px solid #707070; padding: 0.3em;") Especificar en las siguientes casillas si se tiene más de un lote de la misma materia prima o más materiales para la   fabricación.
+                    td(style="border: 1px solid #707070; padding: 0.3em;") Especificar en las siguientes casillas si se tiene más de un lote de la misma materia prima o más materiales para la fabricación.
+                    td(style="border: 1px solid #707070; padding: 0.3em;") Especificar en las siguientes casillas si se tiene  más de un lote de la misma materia prima o más materiales para la fabricación.
                   tr
                     td(style="border: 1px solid #707070; padding: 0.3em;")
+                      br
                     td(style="border: 1px solid #707070; padding: 0.3em;")
                     td(style="border: 1px solid #707070; padding: 0.3em;")
                     td(style="border: 1px solid #707070; padding: 0.3em;")
@@ -699,6 +700,7 @@
                     td(style="border: 1px solid #707070; padding: 0.3em;")
                   tr
                     td(style="border: 1px solid #707070; padding: 0.3em;")
+                      br
                     td(style="border: 1px solid #707070; padding: 0.3em;")
                     td(style="border: 1px solid #707070; padding: 0.3em;")
                     td(style="border: 1px solid #707070; padding: 0.3em;")
@@ -853,22 +855,28 @@
             ul.lista-ul--color
               li
                 i.fas.fa-atom(style="color: #FF9D00;")
-                | Etiqueta correcta y bien situada.
+                |
+                p.mb-0 Etiqueta correcta y bien situada.
               li
                 i.fas.fa-atom(style="color: #FF9D00;")
-                | Sticker colocado, si se encuentra bien sellado.
+                |
+                p.mb-0 #[i Sticker] colocado, si se encuentra bien sellado.
               li
                 i.fas.fa-atom(style="color: #FF9D00;")
-                | Limpieza exterior.
+                |
+                p.mb-0 Limpieza exterior.
               li
                 i.fas.fa-atom(style="color: #FF9D00;")
-                | Presencia del lote y la codificación.
+                |
+                p.mb-0 Presencia del lote y la codificación.
               li
                 i.fas.fa-atom(style="color: #FF9D00;")
-                | Se observan los intervalos en los cuales se hacen los controles y el reporte del cumplimiento con la letra “C”.
+                |
+                p.mb-0 Se observan los intervalos en los cuales se hacen los controles y el reporte del cumplimiento con la letra “C”.
               li
                 i.fas.fa-atom(style="color: #FF9D00;")
-                | Firma de quien hizo la verificación.
+                |
+                p.mb-0 Firma de quien hizo la verificación.
           .col-lg-7.col.BG12.p-4
             .titulo-sexto.color-acento-botones
               h5 Tabla 8.
@@ -928,8 +936,8 @@
         .row.justify-content-center.p-4
           .col-lg-5.mb-lg-0.mb-4
             .h4 Formato aprobación
-            p Finalmente, el director técnico responsable, deberá revisar cada uno de los documentos del Batch Record, verificar que cumplieron con todos los requisitos y dar su aval para que se libere el lote y pase al proceso de almacenamiento para su posterior dispensación al usuario final.
-            p.mb-0 #[strong Nota]: si durante el proceso existen algunas desviaciones de calidad, que no afectan al producto ni al usuario final, el director técnico debe dejar aclarado eso en el Batch Record.
+            p Finalmente, el director técnico responsable, deberá revisar cada uno de los documentos del #[i Batch Record], verificar que cumplieron con todos los requisitos y dar su aval para que se libere el lote y pase al proceso de almacenamiento para su posterior dispensación al usuario final.
+            p.mb-0 #[strong Nota]: si durante el proceso existen algunas desviaciones de calidad, que no afectan al producto ni al usuario final, el director técnico debe dejar aclarado eso en el #[i Batch Record].
           .col-lg-5.col-10.BG12.p-4
             p Observaciones:
             hr(style="border-color: #7E5EE3; margin: 1em; opacity: initial")
@@ -1209,7 +1217,7 @@
                   h3.text-white.mb-1  Manual Limpieza y Desinfección en el Laboratorio Clínico 
                   p.text-white.mb-0 Para el proceso de limpieza y desinfección de áreas y equipos de procesos no estériles, se invita al aprendiz a consultar el siguiente documento.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo2_Manual_de_limpieza_y_desinfección.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones(href="https://www.imsalud.gov.co/web/wp-content/uploads/2020/09/PM-GLC-MA-08-MANUAL-DE-LIMPIEZA-Y-DESINFECCION.pdf" target="_blank" type="application/pdf")
                     span(style="color: #000; font-weight: 400") Descargar
                     i.fas.fa-file-download(style="color: #000")
 

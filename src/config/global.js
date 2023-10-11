@@ -73,7 +73,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Paquete técnico de producción (Batch Record)',
+            titulo: 'Paquete técnico de producción (<i>Batch Record</i>)',
             hash: 't_3_3',
           },
           {
@@ -115,7 +115,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/331502_CF20_DU.zip',
+        download: 'downloads/331502_CF20_DU.pdf',
       },
       {
         icono: 'fas fa-download',

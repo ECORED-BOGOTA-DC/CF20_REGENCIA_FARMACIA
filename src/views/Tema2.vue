@@ -46,7 +46,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.cajon.color-secundario.p-4(data-aos="flip-up")
         p.mb-0 Los principios activos utilizados tienen características diferentes según el objetivo terapéutico que se busque para el tratamiento con el preparado magistral en general o los tópicos no estériles que es el objetivo de estudio.
-
+    p.mb-5 A continuación, se podrán evidenciar y conocer algunos ejemplos de principios activos utilizados en dichos preparados farmacéuticos.
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
       h5 Tabla 3.
       span Ejemplos principios activos y sus aplicaciones
@@ -361,7 +361,7 @@
                   p.mb-0 #[strong Primario:] envase o cualquier otra forma de acondicionamiento que se encuentre en contacto directo con el medicamento.
                 li
                   i.fas.fa-atom(style="color: #FF9D00;")
-                  p.mb-0 #[strong Secundario:] embalaje en el que se encuentre el acondicionamiento primario
+                  p.mb-0 #[strong Secundario:] embalaje en el que se encuentre el acondicionamiento primario.
             .col-lg-5
               img(src='@/assets/curso/tema2/img16.svg' alt="Imagen decorativa")
         .BGRB03(titulo="Características")
